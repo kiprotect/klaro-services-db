@@ -1,0 +1,15 @@
+image: python:3.8
+
+services: []
+
+stages:
+  - deploy
+
+deploy-database:
+  stage: deploy
+  only:
+    - /^v(\d)+\.(\d+)\.(\d+)$/
+  script:
+    - make setup # we install requirements
+    - make database # we update the JSON file
+    - make sync # we sync it to the backend
