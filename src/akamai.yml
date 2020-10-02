@@ -1,0 +1,8 @@
+name: akamai
+purposes: [functional]
+cookies:
+  - pattern: ^AKA_A2$
+  - pattern: ^bm_sz$
+  - pattern: ^_abck$
+  - pattern: ^RT$
+  

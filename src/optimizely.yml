@@ -1,0 +1,4 @@
+name: optimizely
+purposes: [performance]
+cookies:
+  - pattern: ^optimizelyEndUserId$

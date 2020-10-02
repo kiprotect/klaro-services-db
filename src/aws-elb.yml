@@ -1,0 +1,8 @@
+name: aws-elb
+purposes: [functional]
+translations:
+  title:
+    en: Amazon Web Services - Elastic Load Balancer (ELB)
+cookies:
+  - pattern: ^AWSALB$
+  - pattern: ^AWSALBCORS$

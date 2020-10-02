@@ -1,0 +1,22 @@
+name: hubspot
+translations:
+  privacyPolicyUrl:
+    zz: https://legal.hubspot.com/privacy-policy
+  cookieDetailsUrl:
+    zz: https://knowledge.hubspot.com/reports/what-cookies-does-hubspot-set-in-a-visitor-s-browser
+cookies:
+  - pattern: ^hubspot
+  - pattern: ^__hs_opt_out$
+  - pattern: ^__hs_do_not_track$
+  - pattern: ^__hs_initial_opt_in$
+  - pattern: ^__hs_cookie_cat_pref$
+  - pattern: ^hs_ab_test$
+  - pattern: ^.*_key$
+  - pattern: ^hs-messages-is-open$
+  - pattern: ^hs-messages-hide-welcome-message$
+  - pattern: ^__hsmem$
+  - pattern: ^hs-membership-csrf$
+  - pattern: ^hs_langswitcher_choice$
+  - pattern: ^__hstc$
+  - pattern: ^__hssc$
+  - pattern: ^__hssrc$

@@ -1,0 +1,7 @@
+name: alexa-analytics
+translations:
+  privacyPolicyUrl:
+    zz: https://www.alexa.com/help/privacy
+cookies:
+  - pattern: ^__auc$
+  - pattern: ^__asc$

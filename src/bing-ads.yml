@@ -1,0 +1,8 @@
+name: Microsoft Bing Ads
+purposes: [advertising]
+translations:
+  privacyPolicyUrl:
+    zz: https://about.ads.microsoft.com/en-us/resources/policies/privacy-and-data-protection-policies
+    de: https://about.ads.microsoft.com/de-de/ressourcen/Richtlinien/richtlinien-zur-datensicherheit-und-datnschutzerklaerung
+cookies:
+  - pattern: ^_uetsid$

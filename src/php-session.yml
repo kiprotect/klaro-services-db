@@ -1,0 +1,7 @@
+name: php-session
+purposes: [functional]
+translations:
+  title:
+    en: PHP Session ID
+cookies:
+  - pattern: ^PHPSESSID$

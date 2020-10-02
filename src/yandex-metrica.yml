@@ -1,0 +1,11 @@
+name: yandex-metrica
+translations:
+  privacyPolicyUrl:
+    zz: https://yandex.com/legal/confidential/?lang={lang}
+cookies:
+  - pattern: ^_ym_d$
+    expiresAfter: 1 year
+  - pattern: ^_ym_uid$
+  - pattern: ^_ym_isad$
+    expiresAfter: 1 day
+  

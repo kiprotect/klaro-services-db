@@ -1,0 +1,5 @@
+name: add-this
+purposes: [marketing]
+cookies:
+  - pattern: ^__atuvc$
+  - pattern: ^__atuvs$

@@ -1,0 +1,7 @@
+name: google-tag-manager
+translations:
+  title:
+    zz: Google Tag Manager
+cookies:
+  - pattern: ^_gcl_au$
+    expiresAfter: 

@@ -1,0 +1,13 @@
+name: tealium
+translations:
+  privacyPolicyUrl:
+    zz: https://tealium.com/privacy/
+purposes: [marketing, performance]
+cookies:
+  - pattern: ^utag_main$
+  - pattern: ^ses_id$
+  - pattern: ^_st$
+  - pattern: ^v_id$
+  - pattern: ^_ss$
+  - pattern: ^_pn$
+  - pattern: ^_sn$

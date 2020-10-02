@@ -1,0 +1,14 @@
+name: adobe-analytics
+translations:
+  privacyPolicyUrl:
+    zz: https://www.adobe.com/privacy.html
+purposes: [performance, marketing]
+cookies:
+  - pattern: ^s_cc$
+  - pattern: ^s_ecid$
+  - pattern: ^AMCV_
+  - pattern: ^s_sq$
+  - pattern: ^s_vi$
+  - pattern: ^s_fid$
+  - pattern: ^mbox$
+  -

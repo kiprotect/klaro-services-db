@@ -1,0 +1,4 @@
+name: asp-session
+purposes: [functional]
+cookies:
+  - pattern: ^ASP.NET_SessionId$

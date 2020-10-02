@@ -1,0 +1,4 @@
+name: jira
+purposes: [functional]
+cookies:
+  - pattern: ^ajs_anonymous_id$

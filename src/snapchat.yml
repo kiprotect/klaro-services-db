@@ -1,0 +1,4 @@
+name: snapchat
+purposes: [advertising]
+cookies:
+  - pattern: ^_scid$

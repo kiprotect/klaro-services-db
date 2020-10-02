@@ -1,0 +1,4 @@
+name: drupal
+purposes: [functional]
+cookies:
+  - pattern: ^has_js$

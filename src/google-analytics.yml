@@ -1,0 +1,56 @@
+name: google-analytics
+purposes: [performance, marketing]
+default: false
+translations:
+  privacyPolicyUrl:
+    zz: https://policies.google.com/privacy?hl={lang}
+  description:
+    en: |
+      Google Analytics is a simple, easy-to-use tool that helps website owners measure how users interact with website content. As a user navigates between web pages, Google Analytics provides website owners JavaScript tags (libraries) to record information about the page a user has seen, for example the URL of the page.
+  title:
+    zz: Google Analytics
+  cookieDetailsUrl:
+    zz: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
+cookies:
+  - pattern: ^_ga$
+    expiresAfter: 2 years
+    path: /
+  - pattern: ^_gid$
+    expiresAfter: 24 hours
+  - pattern: ^_gat$
+    expiresAfter: 1 minute
+  - pattern: ^AMP_TOKEN$
+    expiresAfter:
+      - min: 30 seconds
+      - max: 1 year
+  - pattern: ^_gac_
+    expiresAfter: 90 days
+  - pattern: ^__utmz$
+    expiresAfter: 6 months
+  - pattern: ^__utma$
+    expiresAfter: never
+  - pattern: ^__utmb$
+    expiresAfter: 30 minutes
+  - pattern: ^__utmv$
+    expiresAfter: never
+  - pattern: ^__utmt$
+    expiresAfter: 10 minutes
+indicators:
+  - type: cookies
+  - type: script-tag
+    source:
+      patterns:
+        - "ga\('create'.*?\)"
+        - GoogleAnalyticsObject
+        - www\.google-analytics\.com/analytics\.js
+  - type: request
+    url: www\.google-analytics\.com
+actions:
+  enable:
+    - type: enable-tags
+      strategies: all # this applies to all management strategies
+  disable:
+    - type: disable-tags
+      strategies: all
+    - type: clean-cookies
+      strategies: all
