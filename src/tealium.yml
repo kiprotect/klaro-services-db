@@ -1,7 +1,7 @@
 name: tealium
 translations:
-  privacyPolicyUrl:
-    zz: https://tealium.com/privacy/
+  zz:
+    privacyPolicyUrl: https://tealium.com/privacy/
 purposes: [marketing, performance]
 cookies:
   - pattern: ^utag_main$

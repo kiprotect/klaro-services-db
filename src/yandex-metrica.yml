@@ -1,7 +1,7 @@
 name: yandex-metrica
 translations:
-  privacyPolicyUrl:
-    zz: https://yandex.com/legal/confidential/?lang={lang}
+  zz:
+    privacyPolicyUrl: https://yandex.com/legal/confidential/?lang={lang}
 cookies:
   - pattern: ^_ym_d$
     expiresAfter: 1 year

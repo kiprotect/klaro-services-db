@@ -111,17 +111,11 @@
       "marketing"
     ],
     "translations": {
-      "cookieDetailsUrl": {
-        "zz": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
-      },
-      "description": {
-        "en": "Google Analytics is a simple, easy-to-use tool that helps website owners measure how users interact with website content. As a user navigates between web pages, Google Analytics provides website owners JavaScript tags (libraries) to record information about the page a user has seen, for example the URL of the page.\n"
-      },
-      "privacyPolicyUrl": {
-        "zz": "https://policies.google.com/privacy?hl={lang}"
-      },
-      "title": {
-        "zz": "Google Analytics"
+      "zz": {
+        "cookieDetailsUrl": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage",
+        "description": "Google Analytics is a simple, easy-to-use tool that helps website owners measure how users interact with website content. As a user navigates between web pages, Google Analytics provides website owners JavaScript tags (libraries) to record information about the page a user has seen, for example the URL of the page.\n",
+        "privacyPolicyUrl": "https://policies.google.com/privacy?hl={lang}",
+        "title": "Google Analytics"
       }
     }
   },
@@ -140,14 +134,10 @@
     ],
     "name": "google-marketing-platform",
     "translations": {
-      "description": {
-        "en": "Google Marketing Platform is a unified advertising and analytics platform by Google.\n"
-      },
-      "privacyPolicyUrl": {
-        "zz": "https://policies.google.com/privacy?hl={lang}"
-      },
-      "title": {
-        "zz": "Google Marketing Platform"
+      "zz": {
+        "description": "Google Marketing Platform is a unified advertising and analytics platform by Google.\n",
+        "privacyPolicyUrl": "https://policies.google.com/privacy?hl={lang}",
+        "title": "Google Marketing Platform"
       }
     }
   },
@@ -160,8 +150,8 @@
     ],
     "name": "google-tag-manager",
     "translations": {
-      "title": {
-        "zz": "Google Tag Manager"
+      "zz": {
+        "title": "Google Tag Manager"
       }
     }
   },
@@ -176,8 +166,8 @@
       "functional"
     ],
     "translations": {
-      "title": {
-        "en": "PHP Session ID"
+      "zz": {
+        "title": "PHP Session ID"
       }
     }
   },
@@ -192,8 +182,8 @@
       "functional"
     ],
     "translations": {
-      "title": {
-        "en": "Java Session ID"
+      "zz": {
+        "title": "Java Session ID"
       }
     }
   },
@@ -228,8 +218,8 @@
       "marketing"
     ],
     "translations": {
-      "privacyPolicyUrl": {
-        "zz": "https://www.adobe.com/privacy.html"
+      "zz": {
+        "privacyPolicyUrl": "https://www.adobe.com/privacy.html"
       }
     }
   },
@@ -244,9 +234,11 @@
       "advertising"
     ],
     "translations": {
-      "privacyPolicyUrl": {
-        "de": "https://about.ads.microsoft.com/de-de/ressourcen/Richtlinien/richtlinien-zur-datensicherheit-und-datnschutzerklaerung",
-        "zz": "https://about.ads.microsoft.com/en-us/resources/policies/privacy-and-data-protection-policies"
+      "de": {
+        "privacyPolicyUrl": "https://about.ads.microsoft.com/de-de/ressourcen/Richtlinien/richtlinien-zur-datensicherheit-und-datnschutzerklaerung"
+      },
+      "zz": {
+        "privacyPolicyUrl": "https://about.ads.microsoft.com/en-us/resources/policies/privacy-and-data-protection-policies"
       }
     }
   },
@@ -282,8 +274,8 @@
       "performance"
     ],
     "translations": {
-      "privacyPolicyUrl": {
-        "zz": "https://chartbeat.com/privacy/"
+      "zz": {
+        "privacyPolicyUrl": "https://chartbeat.com/privacy/"
       }
     }
   },
@@ -337,11 +329,9 @@
     ],
     "name": "hubspot",
     "translations": {
-      "cookieDetailsUrl": {
-        "zz": "https://knowledge.hubspot.com/reports/what-cookies-does-hubspot-set-in-a-visitor-s-browser"
-      },
-      "privacyPolicyUrl": {
-        "zz": "https://legal.hubspot.com/privacy-policy"
+      "zz": {
+        "cookieDetailsUrl": "https://knowledge.hubspot.com/reports/what-cookies-does-hubspot-set-in-a-visitor-s-browser",
+        "privacyPolicyUrl": "https://legal.hubspot.com/privacy-policy"
       }
     }
   },
@@ -356,9 +346,11 @@
       "marketing"
     ],
     "translations": {
-      "privacyPolicyUrl": {
-        "de": "https://policy.pinterest.com/de/privacy-policy",
-        "zz": "https://policy.pinterest.com/en/privacy-policy-2016"
+      "de": {
+        "privacyPolicyUrl": "https://policy.pinterest.com/de/privacy-policy"
+      },
+      "zz": {
+        "privacyPolicyUrl": "https://policy.pinterest.com/en/privacy-policy-2016"
       }
     }
   },
@@ -373,8 +365,8 @@
       "advertising"
     ],
     "translations": {
-      "privacyPolicyUrl": {
-        "zz": "https://www.quantcast.com/privacy/"
+      "zz": {
+        "privacyPolicyUrl": "https://www.quantcast.com/privacy/"
       }
     }
   },
@@ -392,8 +384,8 @@
       "functional"
     ],
     "translations": {
-      "title": {
-        "en": "Amazon Web Services - Elastic Load Balancer (ELB)"
+      "en": {
+        "title": "Amazon Web Services - Elastic Load Balancer (ELB)"
       }
     }
   },

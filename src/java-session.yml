@@ -1,7 +1,7 @@
 name: java-session
 translations:
-  title:
-    en: Java Session ID
+  zz:
+    title: Java Session ID
 purposes: [functional]
 cookies:
   - pattern: ^JSESSIONID$

@@ -2,15 +2,12 @@ name: google-analytics
 purposes: [performance, marketing]
 default: false
 translations:
-  privacyPolicyUrl:
-    zz: https://policies.google.com/privacy?hl={lang}
-  description:
-    en: |
+  zz:
+    privacyPolicyUrl: https://policies.google.com/privacy?hl={lang}
+    description: |
       Google Analytics is a simple, easy-to-use tool that helps website owners measure how users interact with website content. As a user navigates between web pages, Google Analytics provides website owners JavaScript tags (libraries) to record information about the page a user has seen, for example the URL of the page.
-  title:
-    zz: Google Analytics
-  cookieDetailsUrl:
-    zz: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
+    title: Google Analytics
+    cookieDetailsUrl: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 cookies:
   - pattern: ^_ga$
     expiresAfter: 2 years

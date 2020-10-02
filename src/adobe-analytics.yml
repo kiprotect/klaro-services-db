@@ -1,7 +1,7 @@
 name: adobe-analytics
 translations:
-  privacyPolicyUrl:
-    zz: https://www.adobe.com/privacy.html
+  zz:
+    privacyPolicyUrl: https://www.adobe.com/privacy.html
 purposes: [performance, marketing]
 cookies:
   - pattern: ^s_cc$
