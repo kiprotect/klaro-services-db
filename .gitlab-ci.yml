@@ -9,6 +9,8 @@ deploy-database:
   stage: deploy
   only:
     - /^v(\d)+\.(\d+)\.(\d+)$/
+  before_script:
+    - pip3 install virtualenv
   script:
     - make setup # we install requirements
     - make database # we update the JSON file
