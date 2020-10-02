@@ -1,1 +1,6 @@
-{}
+name: cloudflare
+cookies:
+  - pattern: ^__cfuuid$
+  - pattern: ^__cf_bm$
+  - pattern: ^cf_ob_info$
+  - pattern: ^__cflb$

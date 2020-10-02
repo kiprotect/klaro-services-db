@@ -1,255 +1,449 @@
-{
-  "actions": {
-    "disable": [
+[
+  {
+    "cookies": [
       {
-        "strategies": "all",
-        "type": "disable-tags"
+        "pattern": "^__cfuuid$"
       },
       {
-        "strategies": "all",
-        "type": "clean-cookies"
+        "pattern": "^__cf_bm$"
+      },
+      {
+        "pattern": "^cf_ob_info$"
+      },
+      {
+        "pattern": "^__cflb$"
       }
     ],
-    "enable": [
-      {
-        "strategies": "all",
-        "type": "enable-tags"
-      }
-    ]
+    "name": "cloudflare"
   },
-  "cookies": [
-    {
-      "expiresAfter": "2 years",
-      "path": "/",
-      "pattern": "^_ga$"
-    },
-    {
-      "expiresAfter": "24 hours",
-      "pattern": "^_gid$"
-    },
-    {
-      "expiresAfter": "1 minute",
-      "pattern": "^_gat$"
-    },
-    {
-      "expiresAfter": [
+  {
+    "actions": {
+      "disable": [
         {
-          "min": "30 seconds"
+          "strategies": "all",
+          "type": "disable-tags"
         },
         {
-          "max": "1 year"
+          "strategies": "all",
+          "type": "clean-cookies"
         }
       ],
-      "pattern": "^AMP_TOKEN$"
+      "enable": [
+        {
+          "strategies": "all",
+          "type": "enable-tags"
+        }
+      ]
     },
-    {
-      "expiresAfter": "90 days",
-      "pattern": "^_gac_"
-    },
-    {
-      "expiresAfter": "6 months",
-      "pattern": "^__utmz$"
-    },
-    {
-      "expiresAfter": "never",
-      "pattern": "^__utma$"
-    },
-    {
-      "expiresAfter": "30 minutes",
-      "pattern": "^__utmb$"
-    },
-    {
-      "expiresAfter": "never",
-      "pattern": "^__utmv$"
-    },
-    {
-      "expiresAfter": "10 minutes",
-      "pattern": "^__utmt$"
-    },
-    {
-      "expiresAfter": "30 days",
-      "pattern": "^__gads$"
-    },
-    {
-      "pattern": "^tmr_$"
-    },
-    {
-      "pattern": "^__gfp_64b$"
-    },
-    {
-      "expiresAfter": null,
-      "pattern": "^_gcl_au$"
-    },
-    {
-      "pattern": "^PHPSESSID$"
-    },
-    {
-      "pattern": "^JSESSIONID$"
-    },
-    {
-      "pattern": "^s_cc$"
-    },
-    {
-      "pattern": "^s_ecid$"
-    },
-    {
-      "pattern": "^AMCV_"
-    },
-    {
-      "pattern": "^s_sq$"
-    },
-    {
-      "pattern": "^s_vi$"
-    },
-    {
-      "pattern": "^s_fid$"
-    },
-    {
-      "pattern": "^mbox$"
-    },
-    null,
-    {
-      "pattern": "^_uetsid$"
-    },
-    {
-      "pattern": "^__atuvc$"
-    },
-    {
-      "pattern": "^__atuvs$"
-    },
-    {
-      "pattern": "^_cb_ls$"
-    },
-    {
-      "pattern": "^chartbeat"
-    },
-    {
-      "pattern": "^_cb.*$"
-    },
-    {
-      "pattern": "^hubspot"
-    },
-    {
-      "pattern": "^__hs_opt_out$"
-    },
-    {
-      "pattern": "^__hs_do_not_track$"
-    },
-    {
-      "pattern": "^__hs_initial_opt_in$"
-    },
-    {
-      "pattern": "^__hs_cookie_cat_pref$"
-    },
-    {
-      "pattern": "^hs_ab_test$"
-    },
-    {
-      "pattern": "^.*_key$"
-    },
-    {
-      "pattern": "^hs-messages-is-open$"
-    },
-    {
-      "pattern": "^hs-messages-hide-welcome-message$"
-    },
-    {
-      "pattern": "^__hsmem$"
-    },
-    {
-      "pattern": "^hs-membership-csrf$"
-    },
-    {
-      "pattern": "^hs_langswitcher_choice$"
-    },
-    {
-      "pattern": "^__hstc$"
-    },
-    {
-      "pattern": "^__hssc$"
-    },
-    {
-      "pattern": "^__hssrc$"
-    },
-    {
-      "pattern": "^_pin_unauth$"
-    },
-    {
-      "pattern": "^__qca$"
-    },
-    {
-      "pattern": "^AWSALB$"
-    },
-    {
-      "pattern": "^AWSALBCORS$"
-    },
-    {
-      "pattern": "^optimizelyEndUserId$"
-    },
-    {
-      "pattern": "^_mkto_trk$"
-    },
-    {
-      "pattern": "^ajs_anonymous_id$"
-    },
-    {
-      "pattern": "^_scid$"
-    }
-  ],
-  "default": false,
-  "indicators": [
-    {
-      "type": "cookies"
-    },
-    {
-      "source": {
-        "patterns": [
-          "ga\\('create'.*?\\)",
-          "GoogleAnalyticsObject",
-          "www\\.google-analytics\\.com/analytics\\.js"
-        ]
+    "cookies": [
+      {
+        "expiresAfter": "2 years",
+        "path": "/",
+        "pattern": "^_ga$"
       },
-      "type": "script-tag"
-    },
-    {
-      "type": "request",
-      "url": "www\\.google-analytics\\.com"
+      {
+        "expiresAfter": "24 hours",
+        "pattern": "^_gid$"
+      },
+      {
+        "expiresAfter": "1 minute",
+        "pattern": "^_gat$"
+      },
+      {
+        "expiresAfter": [
+          {
+            "min": "30 seconds"
+          },
+          {
+            "max": "1 year"
+          }
+        ],
+        "pattern": "^AMP_TOKEN$"
+      },
+      {
+        "expiresAfter": "90 days",
+        "pattern": "^_gac_"
+      },
+      {
+        "expiresAfter": "6 months",
+        "pattern": "^__utmz$"
+      },
+      {
+        "expiresAfter": "never",
+        "pattern": "^__utma$"
+      },
+      {
+        "expiresAfter": "30 minutes",
+        "pattern": "^__utmb$"
+      },
+      {
+        "expiresAfter": "never",
+        "pattern": "^__utmv$"
+      },
+      {
+        "expiresAfter": "10 minutes",
+        "pattern": "^__utmt$"
+      }
+    ],
+    "default": false,
+    "indicators": [
+      {
+        "type": "cookies"
+      },
+      {
+        "source": {
+          "patterns": [
+            "ga\\('create'.*?\\)",
+            "GoogleAnalyticsObject",
+            "www\\.google-analytics\\.com/analytics\\.js"
+          ]
+        },
+        "type": "script-tag"
+      },
+      {
+        "type": "request",
+        "url": "www\\.google-analytics\\.com"
+      }
+    ],
+    "name": "google-analytics",
+    "purposes": [
+      "performance",
+      "marketing"
+    ],
+    "translations": {
+      "cookieDetailsUrl": {
+        "zz": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+      },
+      "description": {
+        "en": "Google Analytics is a simple, easy-to-use tool that helps website owners measure how users interact with website content. As a user navigates between web pages, Google Analytics provides website owners JavaScript tags (libraries) to record information about the page a user has seen, for example the URL of the page.\n"
+      },
+      "privacyPolicyUrl": {
+        "zz": "https://policies.google.com/privacy?hl={lang}"
+      },
+      "title": {
+        "zz": "Google Analytics"
+      }
     }
-  ],
-  "name": "google-analytics",
-  "purposes": [
-    "performance",
-    "marketing",
-    "functional",
-    "functional",
-    "performance",
-    "marketing",
-    "advertising",
-    "marketing",
-    "marketing",
-    "performance",
-    "marketing",
-    "advertising",
-    "functional",
-    "performance",
-    "marketing",
-    "functional",
-    "advertising"
-  ],
-  "translations": {
-    "cookieDetailsUrl": {
-      "zz": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
-    },
-    "description": {
-      "en": "Google Analytics is a simple, easy-to-use tool that helps website owners measure how users interact with website content. As a user navigates between web pages, Google Analytics provides website owners JavaScript tags (libraries) to record information about the page a user has seen, for example the URL of the page.\n"
-    },
-    "privacyPolicyUrl": {
-      "de": "https://about.ads.microsoft.com/de-de/ressourcen/Richtlinien/richtlinien-zur-datensicherheit-und-datnschutzerklaerung",
-      "zz": "https://policies.google.com/privacy?hl={lang}"
-    },
-    "title": {
-      "en": "PHP Session ID",
-      "zz": "Google Analytics"
+  },
+  {
+    "cookies": [
+      {
+        "expiresAfter": "30 days",
+        "pattern": "^__gads$"
+      },
+      {
+        "pattern": "^tmr_$"
+      },
+      {
+        "pattern": "^__gfp_64b$"
+      }
+    ],
+    "name": "google-marketing-platform",
+    "translations": {
+      "description": {
+        "en": "Google Marketing Platform is a unified advertising and analytics platform by Google.\n"
+      },
+      "privacyPolicyUrl": {
+        "zz": "https://policies.google.com/privacy?hl={lang}"
+      },
+      "title": {
+        "zz": "Google Marketing Platform"
+      }
     }
+  },
+  {
+    "cookies": [
+      {
+        "expiresAfter": null,
+        "pattern": "^_gcl_au$"
+      }
+    ],
+    "name": "google-tag-manager",
+    "translations": {
+      "title": {
+        "zz": "Google Tag Manager"
+      }
+    }
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^PHPSESSID$"
+      }
+    ],
+    "name": "php-session",
+    "purposes": [
+      "functional"
+    ],
+    "translations": {
+      "title": {
+        "en": "PHP Session ID"
+      }
+    }
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^JSESSIONID$"
+      }
+    ],
+    "name": "java-session",
+    "purposes": [
+      "functional"
+    ],
+    "translations": {
+      "title": {
+        "en": "Java Session ID"
+      }
+    }
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^s_cc$"
+      },
+      {
+        "pattern": "^s_ecid$"
+      },
+      {
+        "pattern": "^AMCV_"
+      },
+      {
+        "pattern": "^s_sq$"
+      },
+      {
+        "pattern": "^s_vi$"
+      },
+      {
+        "pattern": "^s_fid$"
+      },
+      {
+        "pattern": "^mbox$"
+      },
+      null
+    ],
+    "name": "adobe-analytics",
+    "purposes": [
+      "performance",
+      "marketing"
+    ],
+    "translations": {
+      "privacyPolicyUrl": {
+        "zz": "https://www.adobe.com/privacy.html"
+      }
+    }
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^_uetsid$"
+      }
+    ],
+    "name": "Microsoft Bing Ads",
+    "purposes": [
+      "advertising"
+    ],
+    "translations": {
+      "privacyPolicyUrl": {
+        "de": "https://about.ads.microsoft.com/de-de/ressourcen/Richtlinien/richtlinien-zur-datensicherheit-und-datnschutzerklaerung",
+        "zz": "https://about.ads.microsoft.com/en-us/resources/policies/privacy-and-data-protection-policies"
+      }
+    }
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^__atuvc$"
+      },
+      {
+        "pattern": "^__atuvs$"
+      }
+    ],
+    "name": "add-this",
+    "purposes": [
+      "marketing"
+    ]
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^_cb_ls$"
+      },
+      {
+        "pattern": "^chartbeat"
+      },
+      {
+        "pattern": "^_cb.*$"
+      }
+    ],
+    "name": "chartbeat",
+    "purposes": [
+      "marketing",
+      "performance"
+    ],
+    "translations": {
+      "privacyPolicyUrl": {
+        "zz": "https://chartbeat.com/privacy/"
+      }
+    }
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^hubspot"
+      },
+      {
+        "pattern": "^__hs_opt_out$"
+      },
+      {
+        "pattern": "^__hs_do_not_track$"
+      },
+      {
+        "pattern": "^__hs_initial_opt_in$"
+      },
+      {
+        "pattern": "^__hs_cookie_cat_pref$"
+      },
+      {
+        "pattern": "^hs_ab_test$"
+      },
+      {
+        "pattern": "^.*_key$"
+      },
+      {
+        "pattern": "^hs-messages-is-open$"
+      },
+      {
+        "pattern": "^hs-messages-hide-welcome-message$"
+      },
+      {
+        "pattern": "^__hsmem$"
+      },
+      {
+        "pattern": "^hs-membership-csrf$"
+      },
+      {
+        "pattern": "^hs_langswitcher_choice$"
+      },
+      {
+        "pattern": "^__hstc$"
+      },
+      {
+        "pattern": "^__hssc$"
+      },
+      {
+        "pattern": "^__hssrc$"
+      }
+    ],
+    "name": "hubspot",
+    "translations": {
+      "cookieDetailsUrl": {
+        "zz": "https://knowledge.hubspot.com/reports/what-cookies-does-hubspot-set-in-a-visitor-s-browser"
+      },
+      "privacyPolicyUrl": {
+        "zz": "https://legal.hubspot.com/privacy-policy"
+      }
+    }
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^_pin_unauth$"
+      }
+    ],
+    "name": "pinterest",
+    "purposes": [
+      "marketing"
+    ],
+    "translations": {
+      "privacyPolicyUrl": {
+        "de": "https://policy.pinterest.com/de/privacy-policy",
+        "zz": "https://policy.pinterest.com/en/privacy-policy-2016"
+      }
+    }
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^__qca$"
+      }
+    ],
+    "name": "quantcast",
+    "purposes": [
+      "advertising"
+    ],
+    "translations": {
+      "privacyPolicyUrl": {
+        "zz": "https://www.quantcast.com/privacy/"
+      }
+    }
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^AWSALB$"
+      },
+      {
+        "pattern": "^AWSALBCORS$"
+      }
+    ],
+    "name": "aws-elb",
+    "purposes": [
+      "functional"
+    ],
+    "translations": {
+      "title": {
+        "en": "Amazon Web Services - Elastic Load Balancer (ELB)"
+      }
+    }
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^optimizelyEndUserId$"
+      }
+    ],
+    "name": "optimizely",
+    "purposes": [
+      "performance"
+    ]
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^_mkto_trk$"
+      }
+    ],
+    "name": "marketo",
+    "purposes": [
+      "marketing"
+    ],
+    "translations": {
+      "privacyPolicyUrl": {
+        "zz": "https://documents.marketo.com/legal/privacy/"
+      }
+    }
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^ajs_anonymous_id$"
+      }
+    ],
+    "name": "jira",
+    "purposes": [
+      "functional"
+    ]
+  },
+  {
+    "cookies": [
+      {
+        "pattern": "^_scid$"
+      }
+    ],
+    "name": "snapchat",
+    "purposes": [
+      "advertising"
+    ]
   }
-}
+]

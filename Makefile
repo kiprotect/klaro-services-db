@@ -15,4 +15,4 @@ database:
 	venv/bin/beam config --as-json --site src/index.yml > database.json
 
 sync:
-	venv/bin/python .script/sync.py
+	venv/bin/python .scripts/sync.py

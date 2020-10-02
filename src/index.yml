@@ -1,3 +1,4 @@
+$as-list: true
 $include:
   - cloudflare.yml
   - google-analytics.yml
