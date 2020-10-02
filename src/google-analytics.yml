@@ -32,16 +32,14 @@ cookies:
     expiresAfter: never
   - pattern: ^__utmt$
     expiresAfter: 10 minutes
-indicators:
-  - type: cookies
-  - type: script-tag
-    source:
+scripts:
+  - source:
       patterns:
         - "ga\\('create'.*?\\)"
         - GoogleAnalyticsObject
         - www\.google-analytics\.com/analytics\.js
-  - type: request
-    url: www\.google-analytics\.com
+requests:
+  - url: https://www\.google-analytics\.com
 actions:
   enable:
     - type: enable-tags
