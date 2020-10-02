@@ -1,0 +1,255 @@
+{
+  "actions": {
+    "disable": [
+      {
+        "strategies": "all",
+        "type": "disable-tags"
+      },
+      {
+        "strategies": "all",
+        "type": "clean-cookies"
+      }
+    ],
+    "enable": [
+      {
+        "strategies": "all",
+        "type": "enable-tags"
+      }
+    ]
+  },
+  "cookies": [
+    {
+      "expiresAfter": "2 years",
+      "path": "/",
+      "pattern": "^_ga$"
+    },
+    {
+      "expiresAfter": "24 hours",
+      "pattern": "^_gid$"
+    },
+    {
+      "expiresAfter": "1 minute",
+      "pattern": "^_gat$"
+    },
+    {
+      "expiresAfter": [
+        {
+          "min": "30 seconds"
+        },
+        {
+          "max": "1 year"
+        }
+      ],
+      "pattern": "^AMP_TOKEN$"
+    },
+    {
+      "expiresAfter": "90 days",
+      "pattern": "^_gac_"
+    },
+    {
+      "expiresAfter": "6 months",
+      "pattern": "^__utmz$"
+    },
+    {
+      "expiresAfter": "never",
+      "pattern": "^__utma$"
+    },
+    {
+      "expiresAfter": "30 minutes",
+      "pattern": "^__utmb$"
+    },
+    {
+      "expiresAfter": "never",
+      "pattern": "^__utmv$"
+    },
+    {
+      "expiresAfter": "10 minutes",
+      "pattern": "^__utmt$"
+    },
+    {
+      "expiresAfter": "30 days",
+      "pattern": "^__gads$"
+    },
+    {
+      "pattern": "^tmr_$"
+    },
+    {
+      "pattern": "^__gfp_64b$"
+    },
+    {
+      "expiresAfter": null,
+      "pattern": "^_gcl_au$"
+    },
+    {
+      "pattern": "^PHPSESSID$"
+    },
+    {
+      "pattern": "^JSESSIONID$"
+    },
+    {
+      "pattern": "^s_cc$"
+    },
+    {
+      "pattern": "^s_ecid$"
+    },
+    {
+      "pattern": "^AMCV_"
+    },
+    {
+      "pattern": "^s_sq$"
+    },
+    {
+      "pattern": "^s_vi$"
+    },
+    {
+      "pattern": "^s_fid$"
+    },
+    {
+      "pattern": "^mbox$"
+    },
+    null,
+    {
+      "pattern": "^_uetsid$"
+    },
+    {
+      "pattern": "^__atuvc$"
+    },
+    {
+      "pattern": "^__atuvs$"
+    },
+    {
+      "pattern": "^_cb_ls$"
+    },
+    {
+      "pattern": "^chartbeat"
+    },
+    {
+      "pattern": "^_cb.*$"
+    },
+    {
+      "pattern": "^hubspot"
+    },
+    {
+      "pattern": "^__hs_opt_out$"
+    },
+    {
+      "pattern": "^__hs_do_not_track$"
+    },
+    {
+      "pattern": "^__hs_initial_opt_in$"
+    },
+    {
+      "pattern": "^__hs_cookie_cat_pref$"
+    },
+    {
+      "pattern": "^hs_ab_test$"
+    },
+    {
+      "pattern": "^.*_key$"
+    },
+    {
+      "pattern": "^hs-messages-is-open$"
+    },
+    {
+      "pattern": "^hs-messages-hide-welcome-message$"
+    },
+    {
+      "pattern": "^__hsmem$"
+    },
+    {
+      "pattern": "^hs-membership-csrf$"
+    },
+    {
+      "pattern": "^hs_langswitcher_choice$"
+    },
+    {
+      "pattern": "^__hstc$"
+    },
+    {
+      "pattern": "^__hssc$"
+    },
+    {
+      "pattern": "^__hssrc$"
+    },
+    {
+      "pattern": "^_pin_unauth$"
+    },
+    {
+      "pattern": "^__qca$"
+    },
+    {
+      "pattern": "^AWSALB$"
+    },
+    {
+      "pattern": "^AWSALBCORS$"
+    },
+    {
+      "pattern": "^optimizelyEndUserId$"
+    },
+    {
+      "pattern": "^_mkto_trk$"
+    },
+    {
+      "pattern": "^ajs_anonymous_id$"
+    },
+    {
+      "pattern": "^_scid$"
+    }
+  ],
+  "default": false,
+  "indicators": [
+    {
+      "type": "cookies"
+    },
+    {
+      "source": {
+        "patterns": [
+          "ga\\('create'.*?\\)",
+          "GoogleAnalyticsObject",
+          "www\\.google-analytics\\.com/analytics\\.js"
+        ]
+      },
+      "type": "script-tag"
+    },
+    {
+      "type": "request",
+      "url": "www\\.google-analytics\\.com"
+    }
+  ],
+  "name": "google-analytics",
+  "purposes": [
+    "performance",
+    "marketing",
+    "functional",
+    "functional",
+    "performance",
+    "marketing",
+    "advertising",
+    "marketing",
+    "marketing",
+    "performance",
+    "marketing",
+    "advertising",
+    "functional",
+    "performance",
+    "marketing",
+    "functional",
+    "advertising"
+  ],
+  "translations": {
+    "cookieDetailsUrl": {
+      "zz": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+    },
+    "description": {
+      "en": "Google Analytics is a simple, easy-to-use tool that helps website owners measure how users interact with website content. As a user navigates between web pages, Google Analytics provides website owners JavaScript tags (libraries) to record information about the page a user has seen, for example the URL of the page.\n"
+    },
+    "privacyPolicyUrl": {
+      "de": "https://about.ads.microsoft.com/de-de/ressourcen/Richtlinien/richtlinien-zur-datensicherheit-und-datnschutzerklaerung",
+      "zz": "https://policies.google.com/privacy?hl={lang}"
+    },
+    "title": {
+      "en": "PHP Session ID",
+      "zz": "Google Analytics"
+    }
+  }
+}

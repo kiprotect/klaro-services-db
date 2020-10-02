@@ -40,7 +40,7 @@ indicators:
   - type: script-tag
     source:
       patterns:
-        - "ga\('create'.*?\)"
+        - "ga\\('create'.*?\\)"
         - GoogleAnalyticsObject
         - www\.google-analytics\.com/analytics\.js
   - type: request
