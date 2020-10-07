@@ -1,7 +1,8 @@
-name: Microsoft Bing Ads
+name: microsoft-bing-ads
 purposes: [advertising]
 translations:
   zz:
+    title: Microsoft Bing Ads
     privacyPolicyUrl: https://about.ads.microsoft.com/en-us/resources/policies/privacy-and-data-protection-policies
   de:
     privacyPolicyUrl: https://about.ads.microsoft.com/de-de/ressourcen/Richtlinien/richtlinien-zur-datensicherheit-und-datnschutzerklaerung

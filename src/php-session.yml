@@ -1,4 +1,7 @@
 name: php-session
+version: 1
+required: true
+default: true
 purposes: [functional]
 translations:
   zz:

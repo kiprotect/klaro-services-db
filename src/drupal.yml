@@ -1,4 +1,6 @@
 name: drupal
+required: true
+default: true
 purposes: [functional]
 cookies:
   - pattern: ^has_js$

@@ -1,4 +1,5 @@
 name: hubspot
+purposes: [performance]
 translations:
   zz:
     privacyPolicyUrl: https://legal.hubspot.com/privacy-policy

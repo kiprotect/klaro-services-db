@@ -14,7 +14,12 @@
         "pattern": "^__cflb$"
       }
     ],
-    "name": "cloudflare"
+    "default": true,
+    "name": "cloudflare",
+    "purposes": [
+      "functional"
+    ],
+    "required": true
   },
   {
     "actions": {
@@ -50,14 +55,7 @@
         "pattern": "^_gat$"
       },
       {
-        "expiresAfter": [
-          {
-            "min": "30 seconds"
-          },
-          {
-            "max": "1 year"
-          }
-        ],
+        "expiresAfter": "1 year",
         "pattern": "^AMP_TOKEN$"
       },
       {
@@ -86,10 +84,17 @@
       }
     ],
     "default": false,
-    "indicators": [
+    "name": "google-analytics",
+    "purposes": [
+      "performance",
+      "marketing"
+    ],
+    "requests": [
       {
-        "type": "cookies"
-      },
+        "url": "https://www\\.google-analytics\\.com"
+      }
+    ],
+    "scripts": [
       {
         "source": {
           "patterns": [
@@ -97,18 +102,8 @@
             "GoogleAnalyticsObject",
             "www\\.google-analytics\\.com/analytics\\.js"
           ]
-        },
-        "type": "script-tag"
-      },
-      {
-        "type": "request",
-        "url": "www\\.google-analytics\\.com"
+        }
       }
-    ],
-    "name": "google-analytics",
-    "purposes": [
-      "performance",
-      "marketing"
     ],
     "translations": {
       "zz": {
@@ -133,6 +128,10 @@
       }
     ],
     "name": "google-marketing-platform",
+    "purposes": [
+      "performance",
+      "advertising"
+    ],
     "translations": {
       "zz": {
         "description": "Google Marketing Platform is a unified advertising and analytics platform by Google.\n",
@@ -144,11 +143,15 @@
   {
     "cookies": [
       {
-        "expiresAfter": null,
+        "expiresAfter": "1 year",
         "pattern": "^_gcl_au$"
       }
     ],
     "name": "google-tag-manager",
+    "purposes": [
+      "performance",
+      "advertising"
+    ],
     "translations": {
       "zz": {
         "title": "Google Tag Manager"
@@ -161,15 +164,18 @@
         "pattern": "^PHPSESSID$"
       }
     ],
+    "default": true,
     "name": "php-session",
     "purposes": [
       "functional"
     ],
+    "required": true,
     "translations": {
       "zz": {
         "title": "PHP Session ID"
       }
-    }
+    },
+    "version": 1
   },
   {
     "cookies": [
@@ -209,8 +215,7 @@
       },
       {
         "pattern": "^mbox$"
-      },
-      null
+      }
     ],
     "name": "adobe-analytics",
     "purposes": [
@@ -219,7 +224,8 @@
     ],
     "translations": {
       "zz": {
-        "privacyPolicyUrl": "https://www.adobe.com/privacy.html"
+        "privacyPolicyUrl": "https://www.adobe.com/privacy.html",
+        "title": "Adobe Analytics"
       }
     }
   },
@@ -229,7 +235,7 @@
         "pattern": "^_uetsid$"
       }
     ],
-    "name": "Microsoft Bing Ads",
+    "name": "microsoft-bing-ads",
     "purposes": [
       "advertising"
     ],
@@ -238,7 +244,8 @@
         "privacyPolicyUrl": "https://about.ads.microsoft.com/de-de/ressourcen/Richtlinien/richtlinien-zur-datensicherheit-und-datnschutzerklaerung"
       },
       "zz": {
-        "privacyPolicyUrl": "https://about.ads.microsoft.com/en-us/resources/policies/privacy-and-data-protection-policies"
+        "privacyPolicyUrl": "https://about.ads.microsoft.com/en-us/resources/policies/privacy-and-data-protection-policies",
+        "title": "Microsoft Bing Ads"
       }
     }
   },
@@ -328,6 +335,9 @@
       }
     ],
     "name": "hubspot",
+    "purposes": [
+      "performance"
+    ],
     "translations": {
       "zz": {
         "cookieDetailsUrl": "https://knowledge.hubspot.com/reports/what-cookies-does-hubspot-set-in-a-visitor-s-browser",

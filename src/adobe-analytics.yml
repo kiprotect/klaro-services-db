@@ -1,6 +1,7 @@
 name: adobe-analytics
 translations:
   zz:
+    title: Adobe Analytics
     privacyPolicyUrl: https://www.adobe.com/privacy.html
 purposes: [performance, marketing]
 cookies:
@@ -11,4 +12,3 @@ cookies:
   - pattern: ^s_vi$
   - pattern: ^s_fid$
   - pattern: ^mbox$
-  -

@@ -17,9 +17,7 @@ cookies:
   - pattern: ^_gat$
     expiresAfter: 1 minute
   - pattern: ^AMP_TOKEN$
-    expiresAfter:
-      - min: 30 seconds
-      - max: 1 year
+    expiresAfter: 1 year
   - pattern: ^_gac_
     expiresAfter: 90 days
   - pattern: ^__utmz$

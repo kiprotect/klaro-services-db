@@ -5,7 +5,7 @@ import os
 
 DB_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 TOKEN = os.environ.get('TOKEN')
-API = os.environ.get('API', 'http://localhost:8000')
+API = os.environ.get('API', 'https://api.kiprotect.com')
 
 def main():
     with open('database.json') as input_file:
@@ -14,14 +14,14 @@ def main():
     for entry in database:
         mapped_entry = {
             'name' : entry['name'],
-            'config' : entry,
+            'spec' : entry,
         }
         mapped_database.append(mapped_entry)
     response = requests.post(f'{API}/v1/klaro/services', json={
         'services' : mapped_database,
         }, headers={'Authorization': f'bearer {TOKEN}'})
-    response.raise_for_status()
-    print(json.dumps(response.json(), indent=2))
+    if response.status_code != 200:
+        print(json.dumps(response.json(), indent=2))
 
 if __name__ == '__main__':
     print(DB_DIR)

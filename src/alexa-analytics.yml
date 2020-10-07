@@ -1,6 +1,8 @@
 name: alexa-analytics
+purposes: [performance]
 translations:
   zz:
+    title: Alexa Analytics
     privacyPolicyUrl: https://www.alexa.com/help/privacy
 cookies:
   - pattern: ^__auc$

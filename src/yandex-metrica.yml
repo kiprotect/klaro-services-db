@@ -1,4 +1,5 @@
 name: yandex-metrica
+purposes: [performance]
 translations:
   zz:
     privacyPolicyUrl: https://yandex.com/legal/confidential/?lang={lang}

@@ -1,4 +1,6 @@
 name: xsrf
 purposes: [functional]
+required: true
+default: true
 cookies:
   - pattern: ^XSRF-TOKEN$

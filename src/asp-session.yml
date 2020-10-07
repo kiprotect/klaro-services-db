@@ -1,4 +1,7 @@
 name: asp-session
 purposes: [functional]
+translations:
+  zz:
+    title: ASP Session
 cookies:
   - pattern: ^ASP.NET_SessionId$

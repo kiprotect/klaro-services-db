@@ -1,5 +1,10 @@
 name: akamai
 purposes: [functional]
+required: true
+default: true
+translations:
+  zz:
+    title: Akamai CDN
 cookies:
   - pattern: ^AKA_A2$
   - pattern: ^bm_sz$

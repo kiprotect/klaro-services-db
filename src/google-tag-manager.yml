@@ -1,7 +1,8 @@
 name: google-tag-manager
+purposes: [performance, advertising]
 translations:
   zz:
     title: Google Tag Manager
 cookies:
   - pattern: ^_gcl_au$
-    expiresAfter: 
+    expiresAfter: 1 year
