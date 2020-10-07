@@ -2,7 +2,7 @@
   {
     "cookies": [
       {
-        "pattern": "^__cfuuid$"
+        "pattern": "^__cfduid$"
       },
       {
         "pattern": "^__cf_bm$"

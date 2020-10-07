@@ -3,7 +3,7 @@ purposes: [functional]
 required: true
 default: true
 cookies:
-  - pattern: ^__cfuuid$
+  - pattern: ^__cfduid$
   - pattern: ^__cf_bm$
   - pattern: ^cf_ob_info$
   - pattern: ^__cflb$
