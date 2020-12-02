@@ -106,9 +106,11 @@
       }
     ],
     "translations": {
+      "en": {
+        "description": "Google Analytics is a simple, easy-to-use tool that helps website owners measure how users interact with website content. As a user navigates between web pages, Google Analytics provides website owners JavaScript tags (libraries) to record information about the page a user has seen, for example the URL of the page.\n"
+      },
       "zz": {
         "cookieDetailsUrl": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage",
-        "description": "Google Analytics is a simple, easy-to-use tool that helps website owners measure how users interact with website content. As a user navigates between web pages, Google Analytics provides website owners JavaScript tags (libraries) to record information about the page a user has seen, for example the URL of the page.\n",
         "privacyPolicyUrl": "https://policies.google.com/privacy?hl={lang}",
         "title": "Google Analytics"
       }
@@ -148,6 +150,9 @@
       }
     ],
     "name": "google-tag-manager",
+    "onAccept": "// we notify the tag manager about all services that were accepted. You can define\n// a custom event in GTM to load the service if consent was given.\nfor(let k of Object.keys(opts.consents)){\n    if (opts.consents[k]){\n        let eventName = 'klaro-'+k+'-accepted'\n        dataLayer.push({'event': eventName})\n    }\n}\n// if consent for Google Analytics was granted we enable analytics storage\nif (opts.consents[opts.vars.googleAnalyticsName || 'google-analytics']){\n    console.log(\"Google analytics usage was granted\")\n    gtag('consent', 'update', {'analytics_storage': 'granted'})\n}\n// if consent for Google Ads was granted we enable ad storage\nif (opts.consents[opts.vars.adStorageName || 'google-ads']){\n    console.log(\"Google ads usage was granted\")\n    gtag('consent', 'update', {'ad_storage': 'granted'})\n}\n",
+    "onDecline": "// initialization code here (will be executed only once per page-load)\nwindow.dataLayer = window.dataLayer || [];\nwindow.gtag = function(){dataLayer.push(arguments)}\ngtag('consent', 'default', {'ad_storage': 'denied', 'analytics_storage': 'denied'})\ngtag('set', 'ads_data_redaction', true)\n",
+    "onInit": "// initialization code here (will be executed only once per page-load)\nwindow.dataLayer = window.dataLayer || [];\nwindow.gtag = function(){dataLayer.push(arguments)}\ngtag('consent', 'default', {'ad_storage': 'denied', 'analytics_storage': 'denied'})\ngtag('set', 'ads_data_redaction', true)\n",
     "purposes": [
       "performance",
       "advertising"
@@ -156,7 +161,8 @@
       "zz": {
         "title": "Google Tag Manager"
       }
-    }
+    },
+    "vars": {}
   },
   {
     "cookies": [
