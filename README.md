@@ -42,11 +42,13 @@ in `index.yml`. To create the `database.json` file, simply run
 
     make database
 
-## Synchronizing the Database
+## Synchronizing the Service Database
 
 To synchronize the database with the API, simply run
 
     TOKEN=[access token] API=[api base URL] make sync
 
 This will upload all services to the backend database. For the production
-version, the API address is `https://api.kiprotect.com`.
+version, the API address is `https://api.kiprotect.com`. For the local
+version, you should go to the "Account Settings" app, click on "Access Tokens"
+and create a new token with the `kiprotect:api:klaro:services` scope.
