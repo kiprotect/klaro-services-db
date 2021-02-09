@@ -1,13 +1,26 @@
-name: google-marketing-platform
-purposes: [performance, advertising]
-translations:
-  zz:
-    title: Google Marketing Platform
-    description: |
-      Google Marketing Platform is a unified advertising and analytics platform by Google.
-    privacyPolicyUrl: https://policies.google.com/privacy?hl={lang}
 cookies:
-  - pattern: ^__gads$
-    expiresAfter: 30 days
-  - pattern: ^tmr_$ # to be verified
-  - pattern: ^__gfp_64b$ # to be verified
+- expiresAfter: 30 days
+  pattern: ^__gads$
+- pattern: ^tmr_$
+- pattern: ^__gfp_64b$
+name: google-marketing-platform
+purposes:
+- performance
+- advertising
+translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
+  zz:
+    description: 'Google Marketing Platform is a unified advertising and analytics
+      platform by Google.
+
+      '
+    privacyPolicyUrl: https://policies.google.com/privacy?hl={lang}
+    title: Google Marketing Platform

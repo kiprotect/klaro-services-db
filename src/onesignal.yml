@@ -1,13 +1,23 @@
 name: onesignal
-purposes: [marketing]
-translations:
-  en:
-    description: |
-      A push notification service.
-  zz:
-    title: OneSignal
-    privacyPolicyUrl: https://onesignal.com/privacy_policy
-uses:
-  - cloudflare
+purposes:
+- marketing
 requests:
-  - url: https://www\.onesignal.com
+- url: https://www\.onesignal.com
+translations:
+  de: {}
+  en:
+    description: 'A push notification service.
+
+      '
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
+  zz:
+    privacyPolicyUrl: https://onesignal.com/privacy_policy
+    title: OneSignal
+uses:
+- cloudflare

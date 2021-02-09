@@ -1,12 +1,21 @@
+cookies:
+- expiresAfter: 1 year
+  pattern: ^_ym_d$
+- pattern: ^_ym_uid$
+- expiresAfter: 1 day
+  pattern: ^_ym_isad$
 name: yandex-metrica
-purposes: [performance]
+purposes:
+- performance
 translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
   zz:
     privacyPolicyUrl: https://yandex.com/legal/confidential/?lang={lang}
-cookies:
-  - pattern: ^_ym_d$
-    expiresAfter: 1 year
-  - pattern: ^_ym_uid$
-  - pattern: ^_ym_isad$
-    expiresAfter: 1 day
-  

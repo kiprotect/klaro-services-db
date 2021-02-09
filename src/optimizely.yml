@@ -1,4 +1,15 @@
-name: optimizely
-purposes: [performance]
 cookies:
-  - pattern: ^optimizelyEndUserId$
+- pattern: ^optimizelyEndUserId$
+name: optimizely
+purposes:
+- performance
+translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}

@@ -1,7 +1,17 @@
+cookies:
+- pattern: ^__qca$
 name: quantcast
-purposes: [advertising]
+purposes:
+- advertising
 translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
   zz:
     privacyPolicyUrl: https://www.quantcast.com/privacy/
-cookies:
-  - pattern: ^__qca$

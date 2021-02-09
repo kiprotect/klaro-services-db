@@ -1,50 +1,65 @@
-name: google-analytics
-purposes: [performance, marketing]
+actions:
+  disable:
+  - strategies: all
+    type: disable-tags
+  - strategies: all
+    type: clean-cookies
+  enable:
+  - strategies: all
+    type: enable-tags
+cookies:
+- expiresAfter: 2 years
+  path: /
+  pattern: ^_ga$
+- expiresAfter: 24 hours
+  pattern: ^_gid$
+- expiresAfter: 1 minute
+  pattern: ^_gat$
+- expiresAfter: 1 year
+  pattern: ^AMP_TOKEN$
+- expiresAfter: 90 days
+  pattern: ^_gac_
+- expiresAfter: 6 months
+  pattern: ^__utmz$
+- expiresAfter: never
+  pattern: ^__utma$
+- expiresAfter: 30 minutes
+  pattern: ^__utmb$
+- expiresAfter: never
+  pattern: ^__utmv$
+- expiresAfter: 10 minutes
+  pattern: ^__utmt$
 default: false
+name: google-analytics
+purposes:
+- performance
+- marketing
+requests:
+- url: https://www\.google-analytics\.com
+scripts:
+- source:
+    patterns:
+    - ga\('create'.*?\)
+    - GoogleAnalyticsObject
+    - www\.google-analytics\.com/analytics\.js
 translations:
+  de: {}
+  en:
+    description: 'Google Analytics is a simple, easy-to-use tool that helps website
+      owners measure how users interact with website content. As a user navigates
+      between web pages, Google Analytics provides website owners JavaScript tags
+      (libraries) to record information about the page a user has seen, for example
+      the URL of the page.
+
+      '
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
   zz:
+    cookieDetailsUrl: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
     privacyPolicyUrl: https://policies.google.com/privacy?hl={lang}
     title: Google Analytics
-    cookieDetailsUrl: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
-  en:
-    description: |
-      Google Analytics is a simple, easy-to-use tool that helps website owners measure how users interact with website content. As a user navigates between web pages, Google Analytics provides website owners JavaScript tags (libraries) to record information about the page a user has seen, for example the URL of the page.
-cookies:
-  - pattern: ^_ga$
-    expiresAfter: 2 years
-    path: /
-  - pattern: ^_gid$
-    expiresAfter: 24 hours
-  - pattern: ^_gat$
-    expiresAfter: 1 minute
-  - pattern: ^AMP_TOKEN$
-    expiresAfter: 1 year
-  - pattern: ^_gac_
-    expiresAfter: 90 days
-  - pattern: ^__utmz$
-    expiresAfter: 6 months
-  - pattern: ^__utma$
-    expiresAfter: never
-  - pattern: ^__utmb$
-    expiresAfter: 30 minutes
-  - pattern: ^__utmv$
-    expiresAfter: never
-  - pattern: ^__utmt$
-    expiresAfter: 10 minutes
-scripts:
-  - source:
-      patterns:
-        - "ga\\('create'.*?\\)"
-        - GoogleAnalyticsObject
-        - www\.google-analytics\.com/analytics\.js
-requests:
-  - url: https://www\.google-analytics\.com
-actions:
-  enable:
-    - type: enable-tags
-      strategies: all # this applies to all management strategies
-  disable:
-    - type: disable-tags
-      strategies: all
-    - type: clean-cookies
-      strategies: all

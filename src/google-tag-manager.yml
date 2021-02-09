@@ -1,40 +1,55 @@
+cookies:
+- expiresAfter: 1 year
+  pattern: ^_gcl_au$
 name: google-tag-manager
-purposes: [performance, advertising]
+onAccept: "// we notify the tag manager about all services that were accepted. You\
+  \ can define\n// a custom event in GTM to load the service if consent was given.\n\
+  for(let k of Object.keys(opts.consents)){\n    if (opts.consents[k]){\n        let\
+  \ eventName = 'klaro-'+k+'-accepted'\n        dataLayer.push({'event': eventName})\n\
+  \    }\n}\n// if consent for Google Analytics was granted we enable analytics storage\n\
+  if (opts.consents[opts.vars.googleAnalyticsName || 'google-analytics']){\n    console.log(\"\
+  Google analytics usage was granted\")\n    gtag('consent', 'update', {'analytics_storage':\
+  \ 'granted'})\n}\n// if consent for Google Ads was granted we enable ad storage\n\
+  if (opts.consents[opts.vars.adStorageName || 'google-ads']){\n    console.log(\"\
+  Google ads usage was granted\")\n    gtag('consent', 'update', {'ad_storage': 'granted'})\n\
+  }\n"
+onDecline: '// initialization code here (will be executed only once per page-load)
+
+  window.dataLayer = window.dataLayer || [];
+
+  window.gtag = function(){dataLayer.push(arguments)}
+
+  gtag(''consent'', ''default'', {''ad_storage'': ''denied'', ''analytics_storage'':
+  ''denied''})
+
+  gtag(''set'', ''ads_data_redaction'', true)
+
+  '
+onInit: '// initialization code here (will be executed only once per page-load)
+
+  window.dataLayer = window.dataLayer || [];
+
+  window.gtag = function(){dataLayer.push(arguments)}
+
+  gtag(''consent'', ''default'', {''ad_storage'': ''denied'', ''analytics_storage'':
+  ''denied''})
+
+  gtag(''set'', ''ads_data_redaction'', true)
+
+  '
+purposes:
+- performance
+- advertising
 translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
   zz:
     title: Google Tag Manager
-cookies:
-  - pattern: ^_gcl_au$
-    expiresAfter: 1 year
 vars: {}
-onAccept: |
-  // we notify the tag manager about all services that were accepted. You can define
-  // a custom event in GTM to load the service if consent was given.
-  for(let k of Object.keys(opts.consents)){
-      if (opts.consents[k]){
-          let eventName = 'klaro-'+k+'-accepted'
-          dataLayer.push({'event': eventName})
-      }
-  }
-  // if consent for Google Analytics was granted we enable analytics storage
-  if (opts.consents[opts.vars.googleAnalyticsName || 'google-analytics']){
-      console.log("Google analytics usage was granted")
-      gtag('consent', 'update', {'analytics_storage': 'granted'})
-  }
-  // if consent for Google Ads was granted we enable ad storage
-  if (opts.consents[opts.vars.adStorageName || 'google-ads']){
-      console.log("Google ads usage was granted")
-      gtag('consent', 'update', {'ad_storage': 'granted'})
-  }
-onInit: |
-  // initialization code here (will be executed only once per page-load)
-  window.dataLayer = window.dataLayer || [];
-  window.gtag = function(){dataLayer.push(arguments)}
-  gtag('consent', 'default', {'ad_storage': 'denied', 'analytics_storage': 'denied'})
-  gtag('set', 'ads_data_redaction', true)
-onDecline: |
-  // initialization code here (will be executed only once per page-load)
-  window.dataLayer = window.dataLayer || [];
-  window.gtag = function(){dataLayer.push(arguments)}
-  gtag('consent', 'default', {'ad_storage': 'denied', 'analytics_storage': 'denied'})
-  gtag('set', 'ads_data_redaction', true)

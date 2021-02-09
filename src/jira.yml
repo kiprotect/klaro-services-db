@@ -1,4 +1,15 @@
-name: jira
-purposes: [functional]
 cookies:
-  - pattern: ^ajs_anonymous_id$
+- pattern: ^ajs_anonymous_id$
+name: jira
+purposes:
+- functional
+translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}

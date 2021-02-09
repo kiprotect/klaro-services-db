@@ -1,6 +1,17 @@
-name: xsrf
-purposes: [functional]
-required: true
-default: true
 cookies:
-  - pattern: ^XSRF-TOKEN$
+- pattern: ^XSRF-TOKEN$
+default: true
+name: xsrf
+purposes:
+- functional
+required: true
+translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}

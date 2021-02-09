@@ -1,7 +1,17 @@
+cookies:
+- pattern: ^_mkto_trk$
 name: marketo
+purposes:
+- marketing
 translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
   privacyPolicyUrl:
     zz: https://documents.marketo.com/legal/privacy/
-purposes: [marketing]
-cookies:
-  - pattern: ^_mkto_trk$
+  pt: {}
+  zh: {}

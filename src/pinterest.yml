@@ -1,9 +1,18 @@
+cookies:
+- pattern: ^_pin_unauth$
 name: pinterest
-purposes: [marketing]
+purposes:
+- marketing
 translations:
-  zz:
-    privacyPolicyUrl: https://policy.pinterest.com/en/privacy-policy-2016
   de:
     privacyPolicyUrl: https://policy.pinterest.com/de/privacy-policy
-cookies:
-  - pattern: ^_pin_unauth$
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
+  zz:
+    privacyPolicyUrl: https://policy.pinterest.com/en/privacy-policy-2016

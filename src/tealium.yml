@@ -1,13 +1,24 @@
+cookies:
+- pattern: ^utag_main$
+- pattern: ^ses_id$
+- pattern: ^_st$
+- pattern: ^v_id$
+- pattern: ^_ss$
+- pattern: ^_pn$
+- pattern: ^_sn$
 name: tealium
+purposes:
+- marketing
+- performance
 translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
   zz:
     privacyPolicyUrl: https://tealium.com/privacy/
-purposes: [marketing, performance]
-cookies:
-  - pattern: ^utag_main$
-  - pattern: ^ses_id$
-  - pattern: ^_st$
-  - pattern: ^v_id$
-  - pattern: ^_ss$
-  - pattern: ^_pn$
-  - pattern: ^_sn$

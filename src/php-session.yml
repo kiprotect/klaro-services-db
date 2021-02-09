@@ -1,10 +1,20 @@
-name: php-session
-version: 1
-required: true
+cookies:
+- pattern: ^PHPSESSID$
 default: true
-purposes: [functional]
+name: php-session
+purposes:
+- functional
+required: true
 translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
   zz:
     title: PHP Session ID
-cookies:
-  - pattern: ^PHPSESSID$
+version: 1

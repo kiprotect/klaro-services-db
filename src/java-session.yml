@@ -1,7 +1,17 @@
+cookies:
+- pattern: ^JSESSIONID$
 name: java-session
+purposes:
+- functional
 translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
   zz:
     title: Java Session ID
-purposes: [functional]
-cookies:
-  - pattern: ^JSESSIONID$

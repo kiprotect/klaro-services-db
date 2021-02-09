@@ -1,5 +1,16 @@
-name: add-this
-purposes: [marketing]
 cookies:
-  - pattern: ^__atuvc$
-  - pattern: ^__atuvs$
+- pattern: ^__atuvc$
+- pattern: ^__atuvs$
+name: add-this
+purposes:
+- marketing
+translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}

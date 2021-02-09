@@ -1,9 +1,20 @@
+cookies:
+- pattern: ^_cb_ls$
+- pattern: ^chartbeat
+- pattern: ^_cb.*$
 name: chartbeat
-purposes: [marketing, performance]
+purposes:
+- marketing
+- performance
 translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
   zz:
     privacyPolicyUrl: https://chartbeat.com/privacy/
-cookies:
-  - pattern: ^_cb_ls$
-  - pattern: ^chartbeat
-  - pattern: ^_cb.*$

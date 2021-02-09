@@ -1,13 +1,22 @@
-name: akamai
-purposes: [functional]
-required: true
+cookies:
+- pattern: ^AKA_A2$
+- pattern: ^bm_sz$
+- pattern: ^_abck$
+- pattern: ^RT$
 default: true
+name: akamai
+purposes:
+- functional
+required: true
 translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
   zz:
     title: Akamai CDN
-cookies:
-  - pattern: ^AKA_A2$
-  - pattern: ^bm_sz$
-  - pattern: ^_abck$
-  - pattern: ^RT$
-  

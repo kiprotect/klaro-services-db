@@ -1,7 +1,17 @@
+cookies:
+- pattern: ^ASP.NET_SessionId$
 name: asp-session
-purposes: [functional]
+purposes:
+- functional
 translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
   zz:
     title: ASP Session
-cookies:
-  - pattern: ^ASP.NET_SessionId$

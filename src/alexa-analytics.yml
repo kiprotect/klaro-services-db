@@ -1,9 +1,19 @@
-name: alexa-analytics
-purposes: [performance]
-translations:
-  zz:
-    title: Alexa Analytics
-    privacyPolicyUrl: https://www.alexa.com/help/privacy
 cookies:
-  - pattern: ^__auc$
-  - pattern: ^__asc$
+- pattern: ^__auc$
+- pattern: ^__asc$
+name: alexa-analytics
+purposes:
+- performance
+translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
+  zz:
+    privacyPolicyUrl: https://www.alexa.com/help/privacy
+    title: Alexa Analytics

@@ -1,6 +1,17 @@
-name: drupal
-required: true
-default: true
-purposes: [functional]
 cookies:
-  - pattern: ^has_js$
+- pattern: ^has_js$
+default: true
+name: drupal
+purposes:
+- functional
+required: true
+translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}

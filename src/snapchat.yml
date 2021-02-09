@@ -1,4 +1,15 @@
-name: snapchat
-purposes: [advertising]
 cookies:
-  - pattern: ^_scid$
+- pattern: ^_scid$
+name: snapchat
+purposes:
+- advertising
+translations:
+  de: {}
+  en: {}
+  es: {}
+  fr: {}
+  it: {}
+  nl: {}
+  pl: {}
+  pt: {}
+  zh: {}
