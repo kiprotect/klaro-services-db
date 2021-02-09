@@ -34,6 +34,18 @@ To create a Python virtual environment install requirements, simply run
 
     make setup
 
+## Updating Translations
+
+We aim to provide high-quality translations of all services in the DB. To do
+this we rely on a combination of machine translations (via DeepL or Google) and
+manual corrections. We use English as the reference language for all translations.
+
+To update the machine translations, simply run
+
+    TOKEN=[DeepL token] make translate
+
+This will translate all strings from the reference language to the target languages.
+
 ## Packing the Database
 
 The database is stitched together from a collection of YAML files. To add a new

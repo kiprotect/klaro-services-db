@@ -16,3 +16,6 @@ database:
 
 sync:
 	venv/bin/python .scripts/sync.py
+
+translate:
+	python3 .scripts/update_translations.py

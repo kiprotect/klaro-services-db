@@ -103,7 +103,7 @@ def update_translations(services_path, ref_lang, token):
         if file.endswith('.trans') or not file.endswith('.yml'):
             continue
         with open(os.path.join(services_path, file)) as service_file:
-            service_config = yaml.load(service_file.read(), Loader=yaml.BaseLoader)
+            service_config = yaml.load(service_file.read(), Loader=yaml.FullLoader)
             if not service_config:
                 continue
         # we load the translations cache for the given service
