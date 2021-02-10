@@ -1,5 +1,6 @@
 [
   {
+    "$label": "cloudflare",
     "cookies": [
       {
         "pattern": "^__cfduid$"
@@ -621,5 +622,58 @@
       "pt": {},
       "zh": {}
     }
+  },
+  {
+    "name": "onesignal",
+    "purposes": [
+      "marketing"
+    ],
+    "requests": [
+      {
+        "url": "https://www\\.onesignal.com"
+      }
+    ],
+    "translations": {
+      "$en": {
+        "description": "OneSignal is a service providing mobile and web push notifications as well as e-mail, SMS & in-app messaging to companies."
+      },
+      "de": {
+        "description": "OneSignal ist ein Dienst, der Unternehmen mobile und Web-Push-Benachrichtigungen sowie E-Mail-, SMS- und In-App-Nachrichten zur Verf\u00fcgung stellt."
+      },
+      "en": {
+        "description": "OneSignal is a service providing mobile and web push notifications as well as e-mail, SMS & in-app messaging to companies."
+      },
+      "es": {
+        "description": "OneSignal es un servicio que proporciona a las empresas notificaciones push en el m\u00f3vil y en la web, as\u00ed como mensajes de correo electr\u00f3nico, SMS e in-app."
+      },
+      "fr": {
+        "description": "OneSignal est un service qui fournit aux entreprises des notifications mobiles et Web Push ainsi que des messages par e-mail, SMS et in-app."
+      },
+      "it": {
+        "description": "OneSignal \u00e8 un servizio che fornisce alle aziende notifiche push per cellulari e web, nonch\u00e9 messaggistica e-mail, SMS e in-app."
+      },
+      "nl": {
+        "description": "OneSignal is een dienst die mobiele en web-pushberichten, alsook e-mail-, SMS- & in-app-berichten aan bedrijven levert."
+      },
+      "pl": {
+        "description": "OneSignal jest serwisem oferuj\u0105cym mobilne i internetowe powiadomienia push, jak r\u00f3wnie\u017c e-mail, SMS & in-app messaging dla firm."
+      },
+      "pt": {
+        "description": "OneSignal \u00e9 um servi\u00e7o que fornece notifica\u00e7\u00f5es via celular e web push, assim como e-mail, SMS e mensagens emapp para companhias."
+      },
+      "zh": {
+        "description": "OneSignal\u662f\u4e00\u9879\u4e3a\u4f01\u4e1a\u63d0\u4f9b\u79fb\u52a8\u548c\u7f51\u7edc\u63a8\u9001\u901a\u77e5\u4ee5\u53ca\u7535\u5b50\u90ae\u4ef6\u3001\u77ed\u4fe1\u548c\u5e94\u7528\u5185\u6d88\u606f\u7684\u670d\u52a1\u3002"
+      },
+      "zz": {
+        "privacyPolicyUrl": "https://onesignal.com/privacy_policy",
+        "title": "OneSignal"
+      }
+    },
+    "uses": [
+      {
+        "$ref": "cloudflare",
+        "overrides": {}
+      }
+    ]
   }
 ]

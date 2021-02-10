@@ -18,6 +18,7 @@ $include:
 - marketo.yml
 - jira.yml
 - snapchat.yml
+- onesignal.yml
 translations:
   de: {}
   en: {}

@@ -4,20 +4,40 @@ purposes:
 requests:
 - url: https://www\.onesignal.com
 translations:
-  de: {}
+  $en:
+    description: OneSignal is a service providing mobile and web push notifications
+      as well as e-mail, SMS & in-app messaging to companies.
+  de:
+    description: OneSignal ist ein Dienst, der Unternehmen mobile und Web-Push-Benachrichtigungen
+      sowie E-Mail-, SMS- und In-App-Nachrichten zur Verfügung stellt.
   en:
-    description: 'A push notification service.
-
-      '
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+    description: OneSignal is a service providing mobile and web push notifications
+      as well as e-mail, SMS & in-app messaging to companies.
+  es:
+    description: OneSignal es un servicio que proporciona a las empresas notificaciones
+      push en el móvil y en la web, así como mensajes de correo electrónico, SMS e
+      in-app.
+  fr:
+    description: OneSignal est un service qui fournit aux entreprises des notifications
+      mobiles et Web Push ainsi que des messages par e-mail, SMS et in-app.
+  it:
+    description: OneSignal è un servizio che fornisce alle aziende notifiche push
+      per cellulari e web, nonché messaggistica e-mail, SMS e in-app.
+  nl:
+    description: OneSignal is een dienst die mobiele en web-pushberichten, alsook
+      e-mail-, SMS- & in-app-berichten aan bedrijven levert.
+  pl:
+    description: OneSignal jest serwisem oferującym mobilne i internetowe powiadomienia
+      push, jak również e-mail, SMS & in-app messaging dla firm.
+  pt:
+    description: OneSignal é um serviço que fornece notificações via celular e web
+      push, assim como e-mail, SMS e mensagens emapp para companhias.
+  zh:
+    description: OneSignal是一项为企业提供移动和网络推送通知以及电子邮件、短信和应用内消息的服务。
   zz:
     privacyPolicyUrl: https://onesignal.com/privacy_policy
     title: OneSignal
 uses:
-- cloudflare
+- $ref: cloudflare
+  overrides: {}
+

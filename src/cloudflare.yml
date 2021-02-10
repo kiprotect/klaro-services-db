@@ -1,3 +1,4 @@
+$label: cloudflare
 cookies:
 - pattern: ^__cfduid$
 - pattern: ^__cf_bm$

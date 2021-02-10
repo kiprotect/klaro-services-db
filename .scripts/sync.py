@@ -24,7 +24,6 @@ def main():
         print(json.dumps(response.json(), indent=2))
 
 if __name__ == '__main__':
-    print(DB_DIR)
     if not TOKEN:
         sys.stderr.write("Please put the access token in the TOKEN environment variable.\n")
         exit(-1)
