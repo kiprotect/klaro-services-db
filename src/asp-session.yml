@@ -4,14 +4,44 @@ name: asp-session
 purposes:
 - functional
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: ASP stores a session identifier as a cookie, which is used by the
+      backend server to retrieve additional information about the session (e.g. data
+      about a shopping cart or a logged in user).
+  de:
+    description: ASP speichert einen Sitzungsbezeichner als Cookie, der vom Backend-Server
+      verwendet wird, um zusätzliche Informationen über die Sitzung abzurufen (z.
+      B. Daten über einen Einkaufswagen oder einen angemeldeten Benutzer).
+  en:
+    description: ASP stores a session identifier as a cookie, which is used by the
+      backend server to retrieve additional information about the session (e.g. data
+      about a shopping cart or a logged in user).
+  es:
+    description: ASP almacena un identificador de sesión en forma de cookie, que es
+      utilizado por el servidor backend para recuperar información adicional sobre
+      la sesión (por ejemplo, datos sobre un carrito de la compra o un usuario conectado).
+  fr:
+    description: L'ASP stocke un identifiant de session sous forme de cookie, qui
+      est utilisé par le serveur dorsal pour récupérer des informations supplémentaires
+      sur la session (par exemple, des données sur un panier d'achat ou un utilisateur
+      connecté).
+  it:
+    description: ASP memorizza un identificatore di sessione come cookie, che viene
+      usato dal server backend per recuperare informazioni aggiuntive sulla sessione
+      (ad esempio dati su un carrello o un utente loggato).
+  nl:
+    description: ASP slaat een sessie-identifier op als een cookie, dat door de backend
+      server gebruikt wordt om extra informatie over de sessie op te halen (b.v. gegevens
+      over een winkelwagentje of een ingelogde gebruiker).
+  pl:
+    description: ASP przechowuje identyfikator sesji jako cookie, który jest wykorzystywany
+      przez serwer backend do pobierania dodatkowych informacji o sesji (np. dane
+      o koszyku lub zalogowanym użytkowniku).
+  pt:
+    description: O ASP armazena um identificador de sessão como um cookie, que é usado
+      pelo servidor backend para recuperar informações adicionais sobre a sessão (por
+      exemplo, dados sobre um carrinho de compras ou um usuário logado).
+  zh:
+    description: ASP以cookie的形式存储了一个会话标识符，后端服务器使用该标识符来检索关于会话的附加信息（例如，关于购物车或登录用户的数据）。
   zz:
     title: ASP Session

@@ -11,15 +11,30 @@ purposes:
 - performance
 - marketing
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: Adobe Analytics provides web- & app- analytics solutions to companies.
+  de:
+    description: Adobe Analytics bietet Web- & App-Analyse-Lösungen für Unternehmen.
+  en:
+    description: Adobe Analytics provides web- & app- analytics solutions to companies.
+  es:
+    description: Adobe Analytics proporciona soluciones de análisis de webs y aplicaciones
+      a las empresas.
+  fr:
+    description: Adobe Analytics fournit aux entreprises des solutions d'analyse de
+      sites web et d'applications.
+  it:
+    description: Adobe Analytics fornisce soluzioni di web e app analytics alle aziende.
+  nl:
+    description: Adobe Analytics biedt web- & app-analytics oplossingen aan bedrijven.
+  pl:
+    description: Adobe Analytics oferuje firmom rozwiązania analityczne dla stron
+      internetowych i aplikacji.
+  pt:
+    description: A Adobe Analytics fornece soluções analíticas via web e app para
+      empresas.
+  zh:
+    description: Adobe Analytics为企业提供网络和应用分析解决方案。
   zz:
     privacyPolicyUrl: https://www.adobe.com/privacy.html
     title: Adobe Analytics

@@ -4,14 +4,34 @@ name: java-session
 purposes:
 - functional
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: Java web frameworks use functional cookies to store session information
+      in the browser.
+  de:
+    description: Java-Webframeworks verwenden funktionale Cookies, um Sitzungsinformationen
+      im Browser zu speichern.
+  en:
+    description: Java web frameworks use functional cookies to store session information
+      in the browser.
+  es:
+    description: Los marcos web de Java utilizan cookies funcionales para almacenar
+      la información de la sesión en el navegador.
+  fr:
+    description: Les cadres Web Java utilisent des cookies fonctionnels pour stocker
+      les informations de session dans le navigateur.
+  it:
+    description: I framework web Java usano cookie funzionali per memorizzare informazioni
+      di sessione nel browser.
+  nl:
+    description: Java web frameworks gebruiken functionele cookies om sessie-informatie
+      in de browser op te slaan.
+  pl:
+    description: Frameworki internetowe Java używają funkcjonalnych cookies do przechowywania
+      informacji o sesji w przeglądarce.
+  pt:
+    description: As estruturas da web Java usam cookies funcionais para armazenar
+      informações das sessões no navegador.
+  zh:
+    description: Java网络框架使用功能性cookies在浏览器中存储会话信息。
   zz:
     title: Java Session ID

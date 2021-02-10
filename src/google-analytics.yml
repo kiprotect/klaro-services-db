@@ -43,22 +43,30 @@ scripts:
     - GoogleAnalyticsObject
     - www\.google-analytics\.com/analytics\.js
 translations:
-  de: {}
+  $en:
+    description: Google Analytics is a web analytics solution offered by Google.
+  de:
+    description: Google Analytics ist eine Web-Analyse-Lösung, die von Google angeboten
+      wird.
   en:
-    description: 'Google Analytics is a simple, easy-to-use tool that helps website
-      owners measure how users interact with website content. As a user navigates
-      between web pages, Google Analytics provides website owners JavaScript tags
-      (libraries) to record information about the page a user has seen, for example
-      the URL of the page.
-
-      '
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+    description: Google Analytics is a web analytics solution offered by Google.
+  es:
+    description: Google Analytics es una solución de análisis web ofrecida por Google.
+  fr:
+    description: Google Analytics est une solution d'analyse web proposée par Google.
+  it:
+    description: Google Analytics è una soluzione di analisi web offerta da Google.
+  nl:
+    description: Google Analytics is een webanalyse-oplossing die door Google wordt
+      aangeboden.
+  pl:
+    description: Google Analytics to rozwiązanie do analizy stron internetowych oferowane
+      przez Google.
+  pt:
+    description: O Google Analytics é uma solução de análise da web oferecida pelo
+      Google.
+  zh:
+    description: Google Analytics是谷歌提供的网络分析解决方案。
   zz:
     cookieDetailsUrl: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
     privacyPolicyUrl: https://policies.google.com/privacy?hl={lang}

@@ -7,14 +7,31 @@ purposes:
 - marketing
 - performance
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: Chartbeat offers content analytics and optimization services to companies.
+  de:
+    description: Chartbeat bietet Unternehmen Dienstleistungen zur Analyse und Optimierung
+      von Inhalten.
+  en:
+    description: Chartbeat offers content analytics and optimization services to companies.
+  es:
+    description: Chartbeat ofrece servicios de análisis y optimización de contenidos
+      a las empresas.
+  fr:
+    description: Chartbeat offre des services d'analyse et d'optimisation de contenu
+      aux entreprises.
+  it:
+    description: Chartbeat offre servizi di analisi e ottimizzazione dei contenuti
+      alle aziende.
+  nl:
+    description: Chartbeat biedt bedrijven diensten voor inhoudsanalyse en -optimalisatie.
+  pl:
+    description: Chartbeat oferuje firmom usługi w zakresie analizy i optymalizacji
+      treści.
+  pt:
+    description: O Chartbeat oferece serviços de análise e otimização de conteúdo
+      para empresas.
+  zh:
+    description: Chartbeat为企业提供内容分析和优化服务。
   zz:
     privacyPolicyUrl: https://chartbeat.com/privacy/

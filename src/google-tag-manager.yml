@@ -41,15 +41,35 @@ purposes:
 - performance
 - advertising
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: Google Tag Manager is a solution that manages third-party scripts
+      on websites.
+  de:
+    description: Google Tag Manager ist eine Lösung, die Skripte von Drittanbietern
+      auf Websites verwaltet.
+  en:
+    description: Google Tag Manager is a solution that manages third-party scripts
+      on websites.
+  es:
+    description: Google Tag Manager es una solución que gestiona los scripts de terceros
+      en los sitios web.
+  fr:
+    description: Google Tag Manager est une solution qui gère les scripts tiers sur
+      les sites Web.
+  it:
+    description: Google Tag Manager è una soluzione che gestisce script di terzi sui
+      siti web.
+  nl:
+    description: Google Tag Manager is een oplossing waarmee scripts van derden op
+      websites kunnen worden beheerd.
+  pl:
+    description: Google Tag Manager jest rozwiązaniem, które zarządza skryptami firm
+      trzecich na stronach internetowych.
+  pt:
+    description: O Google Tag Manager é uma solução que gerencia scripts de terceiros
+      em websites.
+  zh:
+    description: Google Tag Manager是一个管理网站上第三方脚本的解决方案。
   zz:
     title: Google Tag Manager
 vars: {}

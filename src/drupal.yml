@@ -6,12 +6,41 @@ purposes:
 - functional
 required: true
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: Drupal is a content management and web development framework. It
+      uses functional cookies to store information about the client browser, e.g.
+      whether it supports Javascript.
+  de:
+    description: Drupal ist ein Content-Management- und Web-Entwicklungs-Framework.
+      Es verwendet funktionale Cookies, um Informationen über den Client-Browser zu
+      speichern, z. B. ob er Javascript unterstützt.
+  en:
+    description: Drupal is a content management and web development framework. It
+      uses functional cookies to store information about the client browser, e.g.
+      whether it supports Javascript.
+  es:
+    description: Drupal es un marco de gestión de contenidos y desarrollo web. Utiliza
+      cookies funcionales para almacenar información sobre el navegador del cliente,
+      por ejemplo, si soporta Javascript.
+  fr:
+    description: Drupal est un cadre de gestion de contenu et de développement web.
+      Il utilise des cookies fonctionnels pour stocker des informations sur le navigateur
+      du client, par exemple s'il supporte Javascript.
+  it:
+    description: Drupal è un framework per la gestione dei contenuti e lo sviluppo
+      web. Utilizza cookie funzionali per memorizzare informazioni sul browser del
+      cliente, ad esempio se supporta Javascript.
+  nl:
+    description: Drupal is een raamwerk voor inhoudbeheer en webontwikkeling. Het
+      gebruikt functionele cookies om informatie over de clientbrowser op te slaan,
+      bv. of die Javascript ondersteunt.
+  pl:
+    description: Drupal to system zarządzania treścią i tworzenia stron internetowych.
+      Wykorzystuje on funkcjonalne pliki cookie do przechowywania informacji o przeglądarce
+      klienta, np. czy obsługuje ona Javascript.
+  pt:
+    description: Drupal é uma estrutura de gestão de conteúdo e desenvolvimento da
+      web. Ele usa cookies funcionais para armazenar informações sobre o navegador
+      do cliente, por exemplo, se ele suporta Javascript.
+  zh:
+    description: Drupal是一个内容管理和网络开发框架。它使用功能性cookies来存储客户浏览器的信息，例如是否支持Javascript。

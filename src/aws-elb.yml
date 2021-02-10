@@ -5,13 +5,41 @@ name: aws-elb
 purposes:
 - functional
 translations:
-  de: {}
+  $en:
+    description: AWS ELB uses cookies to distribute incoming requests to a number
+      of backend servers in order to optimize server performance and response speed.
+  de:
+    description: AWS ELB verwendet Cookies, um eingehende Anfragen auf eine Reihe
+      von Backend-Servern zu verteilen, um die Serverleistung und Antwortgeschwindigkeit
+      zu optimieren.
   en:
-    title: Amazon Web Services - Elastic Load Balancer (ELB)
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+    description: AWS ELB uses cookies to distribute incoming requests to a number
+      of backend servers in order to optimize server performance and response speed.
+  es:
+    description: AWS ELB utiliza cookies para distribuir las solicitudes entrantes
+      a una serie de servidores backend con el fin de optimizar el rendimiento del
+      servidor y la velocidad de respuesta.
+  fr:
+    description: AWS ELB utilise des cookies pour distribuer les requêtes entrantes
+      à un certain nombre de serveurs de base afin d'optimiser les performances et
+      la vitesse de réponse des serveurs.
+  it:
+    description: AWS ELB usa i cookie per distribuire le richieste in arrivo a un
+      certo numero di server backend al fine di ottimizzare le prestazioni del server
+      e la velocità di risposta.
+  nl:
+    description: AWS ELB gebruikt cookies om inkomende verzoeken te verdelen over
+      een aantal backend servers, om de serverprestaties en de reactiesnelheid te
+      optimaliseren.
+  pl:
+    description: AWS ELB wykorzystuje pliki cookie do dystrybucji przychodzących żądań
+      do wielu serwerów backend w celu optymalizacji wydajności serwera i szybkości
+      odpowiedzi.
+  pt:
+    description: A AWS ELB usa cookies para distribuir os pedidos recebidos para vários
+      servidores backend, a fim de otimizar o desempenho do servidor e a velocidade
+      de resposta.
+  zh:
+    description: AWS ELB使用cookies将传入的请求分发到多个后端服务器，以优化服务器性能和响应速度。
+  zz:
+    title: Amazon Web Services (AWS) - Elastic Load Balancer (ELB)

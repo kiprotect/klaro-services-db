@@ -4,16 +4,27 @@ name: microsoft-bing-ads
 purposes:
 - advertising
 translations:
+  $en:
+    description: Bing Ads provides advertisement services to companies.
   de:
+    description: Bing Ads bietet Werbedienstleistungen für Unternehmen an.
     privacyPolicyUrl: https://about.ads.microsoft.com/de-de/ressourcen/Richtlinien/richtlinien-zur-datensicherheit-und-datnschutzerklaerung
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  en:
+    description: Bing Ads provides advertisement services to companies.
+  es:
+    description: Bing Ads ofrece servicios de publicidad a las empresas.
+  fr:
+    description: Bing Ads fournit des services de publicité aux entreprises.
+  it:
+    description: Bing Ads fornisce servizi pubblicitari alle aziende.
+  nl:
+    description: Bing Ads biedt advertentiediensten aan bedrijven.
+  pl:
+    description: Bing Ads świadczy usługi reklamowe dla firm.
+  pt:
+    description: O Bing Ads presta serviços de propaganda às companhias.
+  zh:
+    description: Bing Ads为企业提供广告服务。
   zz:
     privacyPolicyUrl: https://about.ads.microsoft.com/en-us/resources/policies/privacy-and-data-protection-policies
     title: Microsoft Bing Ads

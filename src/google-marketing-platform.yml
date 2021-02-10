@@ -8,19 +8,34 @@ purposes:
 - performance
 - advertising
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: The Google Marketing Platform offers advertising and analytics solutions
+      to companies.
+  de:
+    description: Die Google Marketing Platform bietet Unternehmen Werbe- und Analyselösungen.
+  en:
+    description: The Google Marketing Platform offers advertising and analytics solutions
+      to companies.
+  es:
+    description: La plataforma de marketing de Google ofrece soluciones de publicidad
+      y análisis a las empresas.
+  fr:
+    description: La plate-forme de marketing de Google offre des solutions de publicité
+      et d'analyse aux entreprises.
+  it:
+    description: La Google Marketing Platform offre soluzioni pubblicitarie e di analisi
+      alle aziende.
+  nl:
+    description: Het Google Marketing Platform biedt bedrijven oplossingen voor reclame
+      en analytics.
+  pl:
+    description: Google Marketing Platform oferuje firmom rozwiązania reklamowe i
+      analityczne.
+  pt:
+    description: A Plataforma de Marketing do Google oferece soluções publicitárias
+      e analíticas às empresas.
+  zh:
+    description: 谷歌营销平台为企业提供广告和分析解决方案。
   zz:
-    description: 'Google Marketing Platform is a unified advertising and analytics
-      platform by Google.
-
-      '
     privacyPolicyUrl: https://policies.google.com/privacy?hl={lang}
     title: Google Marketing Platform

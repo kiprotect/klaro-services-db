@@ -18,15 +18,26 @@ name: hubspot
 purposes:
 - performance
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: Hubspot offers marketing and sales solutions to companies.
+  de:
+    description: Hubspot bietet Marketing- und Vertriebslösungen für Unternehmen.
+  en:
+    description: Hubspot offers marketing and sales solutions to companies.
+  es:
+    description: Hubspot ofrece soluciones de marketing y ventas a las empresas.
+  fr:
+    description: Hubspot propose des solutions de marketing et de vente aux entreprises.
+  it:
+    description: Hubspot offre soluzioni di marketing e vendite alle aziende.
+  nl:
+    description: Hubspot biedt marketing- en verkoopoplossingen aan bedrijven.
+  pl:
+    description: Hubspot oferuje firmom rozwiązania w zakresie marketingu i sprzedaży.
+  pt:
+    description: O Hubspot oferece soluções de marketing e vendas a empresas.
+  zh:
+    description: Hubspot为企业提供营销和销售解决方案。
   zz:
     cookieDetailsUrl: https://knowledge.hubspot.com/reports/what-cookies-does-hubspot-set-in-a-visitor-s-browser
     privacyPolicyUrl: https://legal.hubspot.com/privacy-policy

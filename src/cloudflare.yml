@@ -10,12 +10,35 @@ purposes:
 - functional
 required: true
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: Cloudflare provides a content delivery network (CDN) as well as security,
+      caching and DNS services to companies.
+  de:
+    description: Cloudflare bietet ein Content Delivery Network (CDN) sowie Sicherheits-,
+      Caching- und DNS-Dienste für Unternehmen.
+  en:
+    description: Cloudflare provides a content delivery network (CDN) as well as security,
+      caching and DNS services to companies.
+  es:
+    description: Cloudflare ofrece a las empresas una red de distribución de contenidos
+      (CDN), así como servicios de seguridad, almacenamiento en caché y DNS.
+  fr:
+    description: Cloudflare fournit un réseau de diffusion de contenu (CDN) ainsi
+      que des services de sécurité, de mise en cache et de DNS aux entreprises.
+  it:
+    description: Cloudflare fornisce una rete di consegna dei contenuti (CDN) e servizi
+      di sicurezza, caching e DNS alle aziende.
+  nl:
+    description: Cloudflare levert een content delivery network (CDN) en beveiligings-,
+      caching- en DNS-diensten aan bedrijven.
+  pl:
+    description: Cloudflare oferuje sieć dostarczania treści (CDN), jak również usługi
+      bezpieczeństwa, buforowania i DNS dla przedsiębiorstw.
+  pt:
+    description: O Cloudflare fornece uma rede de entrega de conteúdo (CDN), bem como
+      serviços de segurança, cache e DNS para empresas.
+  zh:
+    description: Cloudflare为企业提供内容交付网络（CDN）以及安全、缓存和DNS服务。
+  zz:
+    privacyPolicyUrl: https://www.cloudflare.com/{lang}-{country}/privacypolicy
+    websiteUrl: https://www.cloudflare.com

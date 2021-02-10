@@ -4,12 +4,32 @@ name: jira
 purposes:
 - functional
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: Jira is a ticketing and bug-tracking solution offered by Atlassian
+      Inc..
+  de:
+    description: Jira ist eine Ticketing- und Bug-Tracking-Lösung, die von Atlassian
+      Inc. angeboten wird.
+  en:
+    description: Jira is a ticketing and bug-tracking solution offered by Atlassian
+      Inc..
+  es:
+    description: Jira es una solución de gestión de tickets y seguimiento de errores
+      ofrecida por Atlassian Inc.
+  fr:
+    description: Jira est une solution de billetterie et de suivi de bugs proposée
+      par Atlassian Inc.
+  it:
+    description: Jira è una soluzione di ticketing e bug-tracking offerta da Atlassian
+      Inc.
+  nl:
+    description: Jira is een oplossing voor het bijhouden van tickets en bugs, die
+      wordt aangeboden door Atlassian Inc.
+  pl:
+    description: Jira jest rozwiązaniem do ticketingu i bug-trackingu oferowanym przez
+      Atlassian Inc.
+  pt:
+    description: A Jira é uma solução de bilheteria e rastreamento de bugs oferecida
+      pela Atlassian Inc..
+  zh:
+    description: Jira是Atlassian Inc.提供的一种票务和错误跟踪解决方案。

@@ -9,14 +9,36 @@ purposes:
 - functional
 required: true
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: Akamai offers a content delivery network (CDN) and various additional
+      solutions e.g. for caching and website security.
+  de:
+    description: Akamai bietet ein Content Delivery Network (CDN) und verschiedene
+      Zusatzlösungen z.B. für Caching und Website-Sicherheit.
+  en:
+    description: Akamai offers a content delivery network (CDN) and various additional
+      solutions e.g. for caching and website security.
+  es:
+    description: Akamai ofrece una red de entrega de contenidos (CDN) y varias soluciones
+      adicionales, por ejemplo, para el almacenamiento en caché y la seguridad del
+      sitio web.
+  fr:
+    description: Akamai propose un réseau de diffusion de contenu (CDN) et diverses
+      solutions supplémentaires, par exemple pour la mise en cache et la sécurité
+      des sites Web.
+  it:
+    description: Akamai offre una rete di consegna dei contenuti (CDN) e varie soluzioni
+      aggiuntive, ad esempio per il caching e la sicurezza dei siti web.
+  nl:
+    description: Akamai biedt een content delivery network (CDN) en diverse aanvullende
+      oplossingen, bijvoorbeeld voor caching en websitebeveiliging.
+  pl:
+    description: Akamai oferuje sieć dostarczania treści (CDN) oraz różne dodatkowe
+      rozwiązania, np. do buforowania i bezpieczeństwa stron internetowych.
+  pt:
+    description: A Akamai oferece uma rede de entrega de conteúdo (CDN) e várias soluções
+      adicionais, por exemplo, para caching e segurança do website.
+  zh:
+    description: Akamai提供内容分发网络（CDN）和各种额外的解决方案，例如缓存和网站安全。
   zz:
     title: Akamai CDN

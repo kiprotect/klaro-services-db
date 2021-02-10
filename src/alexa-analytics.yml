@@ -5,15 +5,35 @@ name: alexa-analytics
 purposes:
 - performance
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
-  pt: {}
-  zh: {}
+  $en:
+    description: Alexa Analytics provides e.g. competitive analytics as well as website
+      tracking solutions to companies.
+  de:
+    description: Alexa Analytics bietet z.B. Wettbewerbsanalysen sowie Website-Tracking-Lösungen
+      für Unternehmen.
+  en:
+    description: Alexa Analytics provides e.g. competitive analytics as well as website
+      tracking solutions to companies.
+  es:
+    description: Alexa Analytics ofrece, por ejemplo, análisis de la competencia y
+      soluciones de seguimiento de sitios web a las empresas.
+  fr:
+    description: Alexa Analytics fournit par exemple des analyses concurrentielles
+      ainsi que des solutions de suivi de sites web aux entreprises.
+  it:
+    description: Alexa Analytics fornisce ad esempio analisi competitive e soluzioni
+      di monitoraggio di siti web alle aziende.
+  nl:
+    description: Alexa Analytics biedt bijv. oplossingen voor concurrentie-analyses
+      en voor het volgen van websites aan bedrijven.
+  pl:
+    description: Alexa Analytics dostarcza firmom m.in. rozwiązania w zakresie analizy
+      konkurencji oraz śledzenia stron internetowych.
+  pt:
+    description: O Alexa Analytics fornece, por exemplo, análises competitivas, bem
+      como soluções de rastreamento de websites para companhias.
+  zh:
+    description: Alexa Analytics为企业提供如竞争分析以及网站跟踪解决方案。
   zz:
     privacyPolicyUrl: https://www.alexa.com/help/privacy
     title: Alexa Analytics

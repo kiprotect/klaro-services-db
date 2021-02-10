@@ -4,14 +4,27 @@ name: marketo
 purposes:
 - marketing
 translations:
-  de: {}
-  en: {}
-  es: {}
-  fr: {}
-  it: {}
-  nl: {}
-  pl: {}
+  $en:
+    description: Marketo is a customer-relationship-management (CRM) solution.
+  de:
+    description: Marketo ist eine Customer-Relationship-Management (CRM)-Lösung.
+  en:
+    description: Marketo is a customer-relationship-management (CRM) solution.
+  es:
+    description: Marketo es una solución de gestión de las relaciones con los clientes
+      (CRM).
+  fr:
+    description: Marketo est une solution de gestion de la relation client (CRM).
+  it:
+    description: Marketo è una soluzione di gestione delle relazioni con i clienti
+      (CRM).
+  nl:
+    description: Marketo is een oplossing voor klantenrelatiebeheer (CRM).
+  pl:
+    description: Marketo jest rozwiązaniem do zarządzania relacjami z klientami (CRM).
   privacyPolicyUrl:
     zz: https://documents.marketo.com/legal/privacy/
-  pt: {}
-  zh: {}
+  pt:
+    description: Marketo é uma solução de gestão de relacionamento com o cliente (CRM).
+  zh:
+    description: Marketo是一个客户关系管理（CRM）解决方案。
