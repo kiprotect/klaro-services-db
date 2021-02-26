@@ -22,15 +22,40 @@
     ],
     "required": true,
     "translations": {
-      "de": {},
-      "en": {},
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
-      "pt": {},
-      "zh": {}
+      "$en": {
+        "description": "Cloudflare provides a content delivery network (CDN) as well as security, caching and DNS services to companies."
+      },
+      "de": {
+        "description": "Cloudflare bietet ein Content Delivery Network (CDN) sowie Sicherheits-, Caching- und DNS-Dienste f\u00fcr Unternehmen."
+      },
+      "en": {
+        "description": "Cloudflare provides a content delivery network (CDN) as well as security, caching and DNS services to companies."
+      },
+      "es": {
+        "description": "Cloudflare ofrece a las empresas una red de distribuci\u00f3n de contenidos (CDN), as\u00ed como servicios de seguridad, almacenamiento en cach\u00e9 y DNS."
+      },
+      "fr": {
+        "description": "Cloudflare fournit un r\u00e9seau de diffusion de contenu (CDN) ainsi que des services de s\u00e9curit\u00e9, de mise en cache et de DNS aux entreprises."
+      },
+      "it": {
+        "description": "Cloudflare fornisce una rete di consegna dei contenuti (CDN) e servizi di sicurezza, caching e DNS alle aziende."
+      },
+      "nl": {
+        "description": "Cloudflare levert een content delivery network (CDN) en beveiligings-, caching- en DNS-diensten aan bedrijven."
+      },
+      "pl": {
+        "description": "Cloudflare oferuje sie\u0107 dostarczania tre\u015bci (CDN), jak r\u00f3wnie\u017c us\u0142ugi bezpiecze\u0144stwa, buforowania i DNS dla przedsi\u0119biorstw."
+      },
+      "pt": {
+        "description": "O Cloudflare fornece uma rede de entrega de conte\u00fado (CDN), bem como servi\u00e7os de seguran\u00e7a, cache e DNS para empresas."
+      },
+      "zh": {
+        "description": "Cloudflare\u4e3a\u4f01\u4e1a\u63d0\u4f9b\u5185\u5bb9\u4ea4\u4ed8\u7f51\u7edc\uff08CDN\uff09\u4ee5\u53ca\u5b89\u5168\u3001\u7f13\u5b58\u548cDNS\u670d\u52a1\u3002"
+      },
+      "zz": {
+        "privacyPolicyUrl": "https://www.cloudflare.com/{lang}-{country}/privacypolicy",
+        "websiteUrl": "https://www.cloudflare.com"
+      }
     }
   },
   {
@@ -96,6 +121,18 @@
       }
     ],
     "default": false,
+    "elements": [
+      {
+        "content": {
+          "patterns": [
+            "ga\\('create'.*?\\)",
+            "GoogleAnalyticsObject",
+            "www\\.google-analytics\\.com/analytics\\.js"
+          ]
+        },
+        "tagName": "script"
+      }
+    ],
     "name": "google-analytics",
     "purposes": [
       "performance",
@@ -106,29 +143,37 @@
         "url": "https://www\\.google-analytics\\.com"
       }
     ],
-    "scripts": [
-      {
-        "source": {
-          "patterns": [
-            "ga\\('create'.*?\\)",
-            "GoogleAnalyticsObject",
-            "www\\.google-analytics\\.com/analytics\\.js"
-          ]
-        }
-      }
-    ],
     "translations": {
-      "de": {},
-      "en": {
-        "description": "Google Analytics is a simple, easy-to-use tool that helps website owners measure how users interact with website content. As a user navigates between web pages, Google Analytics provides website owners JavaScript tags (libraries) to record information about the page a user has seen, for example the URL of the page.\n"
+      "$en": {
+        "description": "Google Analytics is a web analytics solution offered by Google."
       },
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
-      "pt": {},
-      "zh": {},
+      "de": {
+        "description": "Google Analytics ist eine Web-Analyse-L\u00f6sung, die von Google angeboten wird."
+      },
+      "en": {
+        "description": "Google Analytics is a web analytics solution offered by Google."
+      },
+      "es": {
+        "description": "Google Analytics es una soluci\u00f3n de an\u00e1lisis web ofrecida por Google."
+      },
+      "fr": {
+        "description": "Google Analytics est une solution d'analyse web propos\u00e9e par Google."
+      },
+      "it": {
+        "description": "Google Analytics \u00e8 una soluzione di analisi web offerta da Google."
+      },
+      "nl": {
+        "description": "Google Analytics is een webanalyse-oplossing die door Google wordt aangeboden."
+      },
+      "pl": {
+        "description": "Google Analytics to rozwi\u0105zanie do analizy stron internetowych oferowane przez Google."
+      },
+      "pt": {
+        "description": "O Google Analytics \u00e9 uma solu\u00e7\u00e3o de an\u00e1lise da web oferecida pelo Google."
+      },
+      "zh": {
+        "description": "Google Analytics\u662f\u8c37\u6b4c\u63d0\u4f9b\u7684\u7f51\u7edc\u5206\u6790\u89e3\u51b3\u65b9\u6848\u3002"
+      },
       "zz": {
         "cookieDetailsUrl": "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage",
         "privacyPolicyUrl": "https://policies.google.com/privacy?hl={lang}",
@@ -155,17 +200,37 @@
       "advertising"
     ],
     "translations": {
-      "de": {},
-      "en": {},
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
-      "pt": {},
-      "zh": {},
+      "$en": {
+        "description": "The Google Marketing Platform offers advertising and analytics solutions to companies."
+      },
+      "de": {
+        "description": "Die Google Marketing Platform bietet Unternehmen Werbe- und Analysel\u00f6sungen."
+      },
+      "en": {
+        "description": "The Google Marketing Platform offers advertising and analytics solutions to companies."
+      },
+      "es": {
+        "description": "La plataforma de marketing de Google ofrece soluciones de publicidad y an\u00e1lisis a las empresas."
+      },
+      "fr": {
+        "description": "La plate-forme de marketing de Google offre des solutions de publicit\u00e9 et d'analyse aux entreprises."
+      },
+      "it": {
+        "description": "La Google Marketing Platform offre soluzioni pubblicitarie e di analisi alle aziende."
+      },
+      "nl": {
+        "description": "Het Google Marketing Platform biedt bedrijven oplossingen voor reclame en analytics."
+      },
+      "pl": {
+        "description": "Google Marketing Platform oferuje firmom rozwi\u0105zania reklamowe i analityczne."
+      },
+      "pt": {
+        "description": "A Plataforma de Marketing do Google oferece solu\u00e7\u00f5es publicit\u00e1rias e anal\u00edticas \u00e0s empresas."
+      },
+      "zh": {
+        "description": "\u8c37\u6b4c\u8425\u9500\u5e73\u53f0\u4e3a\u4f01\u4e1a\u63d0\u4f9b\u5e7f\u544a\u548c\u5206\u6790\u89e3\u51b3\u65b9\u6848\u3002"
+      },
       "zz": {
-        "description": "Google Marketing Platform is a unified advertising and analytics platform by Google.\n",
         "privacyPolicyUrl": "https://policies.google.com/privacy?hl={lang}",
         "title": "Google Marketing Platform"
       }
@@ -187,15 +252,36 @@
       "advertising"
     ],
     "translations": {
-      "de": {},
-      "en": {},
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
-      "pt": {},
-      "zh": {},
+      "$en": {
+        "description": "Google Tag Manager is a solution that manages third-party scripts on websites."
+      },
+      "de": {
+        "description": "Google Tag Manager ist eine L\u00f6sung, die Skripte von Drittanbietern auf Websites verwaltet."
+      },
+      "en": {
+        "description": "Google Tag Manager is a solution that manages third-party scripts on websites."
+      },
+      "es": {
+        "description": "Google Tag Manager es una soluci\u00f3n que gestiona los scripts de terceros en los sitios web."
+      },
+      "fr": {
+        "description": "Google Tag Manager est une solution qui g\u00e8re les scripts tiers sur les sites Web."
+      },
+      "it": {
+        "description": "Google Tag Manager \u00e8 una soluzione che gestisce script di terzi sui siti web."
+      },
+      "nl": {
+        "description": "Google Tag Manager is een oplossing waarmee scripts van derden op websites kunnen worden beheerd."
+      },
+      "pl": {
+        "description": "Google Tag Manager jest rozwi\u0105zaniem, kt\u00f3re zarz\u0105dza skryptami firm trzecich na stronach internetowych."
+      },
+      "pt": {
+        "description": "O Google Tag Manager \u00e9 uma solu\u00e7\u00e3o que gerencia scripts de terceiros em websites."
+      },
+      "zh": {
+        "description": "Google Tag Manager\u662f\u4e00\u4e2a\u7ba1\u7406\u7f51\u7ad9\u4e0a\u7b2c\u4e09\u65b9\u811a\u672c\u7684\u89e3\u51b3\u65b9\u6848\u3002"
+      },
       "zz": {
         "title": "Google Tag Manager"
       }
@@ -241,15 +327,36 @@
       "functional"
     ],
     "translations": {
-      "de": {},
-      "en": {},
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
-      "pt": {},
-      "zh": {},
+      "$en": {
+        "description": "Java web frameworks use functional cookies to store session information in the browser."
+      },
+      "de": {
+        "description": "Java-Webframeworks verwenden funktionale Cookies, um Sitzungsinformationen im Browser zu speichern."
+      },
+      "en": {
+        "description": "Java web frameworks use functional cookies to store session information in the browser."
+      },
+      "es": {
+        "description": "Los marcos web de Java utilizan cookies funcionales para almacenar la informaci\u00f3n de la sesi\u00f3n en el navegador."
+      },
+      "fr": {
+        "description": "Les cadres Web Java utilisent des cookies fonctionnels pour stocker les informations de session dans le navigateur."
+      },
+      "it": {
+        "description": "I framework web Java usano cookie funzionali per memorizzare informazioni di sessione nel browser."
+      },
+      "nl": {
+        "description": "Java web frameworks gebruiken functionele cookies om sessie-informatie in de browser op te slaan."
+      },
+      "pl": {
+        "description": "Frameworki internetowe Java u\u017cywaj\u0105 funkcjonalnych cookies do przechowywania informacji o sesji w przegl\u0105darce."
+      },
+      "pt": {
+        "description": "As estruturas da web Java usam cookies funcionais para armazenar informa\u00e7\u00f5es das sess\u00f5es no navegador."
+      },
+      "zh": {
+        "description": "Java\u7f51\u7edc\u6846\u67b6\u4f7f\u7528\u529f\u80fd\u6027cookies\u5728\u6d4f\u89c8\u5668\u4e2d\u5b58\u50a8\u4f1a\u8bdd\u4fe1\u606f\u3002"
+      },
       "zz": {
         "title": "Java Session ID"
       }
@@ -285,15 +392,36 @@
       "marketing"
     ],
     "translations": {
-      "de": {},
-      "en": {},
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
-      "pt": {},
-      "zh": {},
+      "$en": {
+        "description": "Adobe Analytics provides web- & app- analytics solutions to companies."
+      },
+      "de": {
+        "description": "Adobe Analytics bietet Web- & App-Analyse-L\u00f6sungen f\u00fcr Unternehmen."
+      },
+      "en": {
+        "description": "Adobe Analytics provides web- & app- analytics solutions to companies."
+      },
+      "es": {
+        "description": "Adobe Analytics proporciona soluciones de an\u00e1lisis de webs y aplicaciones a las empresas."
+      },
+      "fr": {
+        "description": "Adobe Analytics fournit aux entreprises des solutions d'analyse de sites web et d'applications."
+      },
+      "it": {
+        "description": "Adobe Analytics fornisce soluzioni di web e app analytics alle aziende."
+      },
+      "nl": {
+        "description": "Adobe Analytics biedt web- & app-analytics oplossingen aan bedrijven."
+      },
+      "pl": {
+        "description": "Adobe Analytics oferuje firmom rozwi\u0105zania analityczne dla stron internetowych i aplikacji."
+      },
+      "pt": {
+        "description": "A Adobe Analytics fornece solu\u00e7\u00f5es anal\u00edticas via web e app para empresas."
+      },
+      "zh": {
+        "description": "Adobe Analytics\u4e3a\u4f01\u4e1a\u63d0\u4f9b\u7f51\u7edc\u548c\u5e94\u7528\u5206\u6790\u89e3\u51b3\u65b9\u6848\u3002"
+      },
       "zz": {
         "privacyPolicyUrl": "https://www.adobe.com/privacy.html",
         "title": "Adobe Analytics"
@@ -311,17 +439,37 @@
       "advertising"
     ],
     "translations": {
+      "$en": {
+        "description": "Bing Ads provides advertisement services to companies."
+      },
       "de": {
+        "description": "Bing Ads bietet Werbedienstleistungen f\u00fcr Unternehmen an.",
         "privacyPolicyUrl": "https://about.ads.microsoft.com/de-de/ressourcen/Richtlinien/richtlinien-zur-datensicherheit-und-datnschutzerklaerung"
       },
-      "en": {},
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
-      "pt": {},
-      "zh": {},
+      "en": {
+        "description": "Bing Ads provides advertisement services to companies."
+      },
+      "es": {
+        "description": "Bing Ads ofrece servicios de publicidad a las empresas."
+      },
+      "fr": {
+        "description": "Bing Ads fournit des services de publicit\u00e9 aux entreprises."
+      },
+      "it": {
+        "description": "Bing Ads fornisce servizi pubblicitari alle aziende."
+      },
+      "nl": {
+        "description": "Bing Ads biedt advertentiediensten aan bedrijven."
+      },
+      "pl": {
+        "description": "Bing Ads \u015bwiadczy us\u0142ugi reklamowe dla firm."
+      },
+      "pt": {
+        "description": "O Bing Ads presta servi\u00e7os de propaganda \u00e0s companhias."
+      },
+      "zh": {
+        "description": "Bing Ads\u4e3a\u4f01\u4e1a\u63d0\u4f9b\u5e7f\u544a\u670d\u52a1\u3002"
+      },
       "zz": {
         "privacyPolicyUrl": "https://about.ads.microsoft.com/en-us/resources/policies/privacy-and-data-protection-policies",
         "title": "Microsoft Bing Ads"
@@ -371,15 +519,36 @@
       "performance"
     ],
     "translations": {
-      "de": {},
-      "en": {},
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
-      "pt": {},
-      "zh": {},
+      "$en": {
+        "description": "Chartbeat offers content analytics and optimization services to companies."
+      },
+      "de": {
+        "description": "Chartbeat bietet Unternehmen Dienstleistungen zur Analyse und Optimierung von Inhalten."
+      },
+      "en": {
+        "description": "Chartbeat offers content analytics and optimization services to companies."
+      },
+      "es": {
+        "description": "Chartbeat ofrece servicios de an\u00e1lisis y optimizaci\u00f3n de contenidos a las empresas."
+      },
+      "fr": {
+        "description": "Chartbeat offre des services d'analyse et d'optimisation de contenu aux entreprises."
+      },
+      "it": {
+        "description": "Chartbeat offre servizi di analisi e ottimizzazione dei contenuti alle aziende."
+      },
+      "nl": {
+        "description": "Chartbeat biedt bedrijven diensten voor inhoudsanalyse en -optimalisatie."
+      },
+      "pl": {
+        "description": "Chartbeat oferuje firmom us\u0142ugi w zakresie analizy i optymalizacji tre\u015bci."
+      },
+      "pt": {
+        "description": "O Chartbeat oferece servi\u00e7os de an\u00e1lise e otimiza\u00e7\u00e3o de conte\u00fado para empresas."
+      },
+      "zh": {
+        "description": "Chartbeat\u4e3a\u4f01\u4e1a\u63d0\u4f9b\u5185\u5bb9\u5206\u6790\u548c\u4f18\u5316\u670d\u52a1\u3002"
+      },
       "zz": {
         "privacyPolicyUrl": "https://chartbeat.com/privacy/"
       }
@@ -438,15 +607,36 @@
       "performance"
     ],
     "translations": {
-      "de": {},
-      "en": {},
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
-      "pt": {},
-      "zh": {},
+      "$en": {
+        "description": "Hubspot offers marketing and sales solutions to companies."
+      },
+      "de": {
+        "description": "Hubspot bietet Marketing- und Vertriebsl\u00f6sungen f\u00fcr Unternehmen."
+      },
+      "en": {
+        "description": "Hubspot offers marketing and sales solutions to companies."
+      },
+      "es": {
+        "description": "Hubspot ofrece soluciones de marketing y ventas a las empresas."
+      },
+      "fr": {
+        "description": "Hubspot propose des solutions de marketing et de vente aux entreprises."
+      },
+      "it": {
+        "description": "Hubspot offre soluzioni di marketing e vendite alle aziende."
+      },
+      "nl": {
+        "description": "Hubspot biedt marketing- en verkoopoplossingen aan bedrijven."
+      },
+      "pl": {
+        "description": "Hubspot oferuje firmom rozwi\u0105zania w zakresie marketingu i sprzeda\u017cy."
+      },
+      "pt": {
+        "description": "O Hubspot oferece solu\u00e7\u00f5es de marketing e vendas a empresas."
+      },
+      "zh": {
+        "description": "Hubspot\u4e3a\u4f01\u4e1a\u63d0\u4f9b\u8425\u9500\u548c\u9500\u552e\u89e3\u51b3\u65b9\u6848\u3002"
+      },
       "zz": {
         "cookieDetailsUrl": "https://knowledge.hubspot.com/reports/what-cookies-does-hubspot-set-in-a-visitor-s-browser",
         "privacyPolicyUrl": "https://legal.hubspot.com/privacy-policy"
@@ -519,17 +709,39 @@
       "functional"
     ],
     "translations": {
-      "de": {},
-      "en": {
-        "title": "Amazon Web Services - Elastic Load Balancer (ELB)"
+      "$en": {
+        "description": "AWS ELB uses cookies to distribute incoming requests to a number of backend servers in order to optimize server performance and response speed."
       },
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
-      "pt": {},
-      "zh": {}
+      "de": {
+        "description": "AWS ELB verwendet Cookies, um eingehende Anfragen auf eine Reihe von Backend-Servern zu verteilen, um die Serverleistung und Antwortgeschwindigkeit zu optimieren."
+      },
+      "en": {
+        "description": "AWS ELB uses cookies to distribute incoming requests to a number of backend servers in order to optimize server performance and response speed."
+      },
+      "es": {
+        "description": "AWS ELB utiliza cookies para distribuir las solicitudes entrantes a una serie de servidores backend con el fin de optimizar el rendimiento del servidor y la velocidad de respuesta."
+      },
+      "fr": {
+        "description": "AWS ELB utilise des cookies pour distribuer les requ\u00eates entrantes \u00e0 un certain nombre de serveurs de base afin d'optimiser les performances et la vitesse de r\u00e9ponse des serveurs."
+      },
+      "it": {
+        "description": "AWS ELB usa i cookie per distribuire le richieste in arrivo a un certo numero di server backend al fine di ottimizzare le prestazioni del server e la velocit\u00e0 di risposta."
+      },
+      "nl": {
+        "description": "AWS ELB gebruikt cookies om inkomende verzoeken te verdelen over een aantal backend servers, om de serverprestaties en de reactiesnelheid te optimaliseren."
+      },
+      "pl": {
+        "description": "AWS ELB wykorzystuje pliki cookie do dystrybucji przychodz\u0105cych \u017c\u0105da\u0144 do wielu serwer\u00f3w backend w celu optymalizacji wydajno\u015bci serwera i szybko\u015bci odpowiedzi."
+      },
+      "pt": {
+        "description": "A AWS ELB usa cookies para distribuir os pedidos recebidos para v\u00e1rios servidores backend, a fim de otimizar o desempenho do servidor e a velocidade de resposta."
+      },
+      "zh": {
+        "description": "AWS ELB\u4f7f\u7528cookies\u5c06\u4f20\u5165\u7684\u8bf7\u6c42\u5206\u53d1\u5230\u591a\u4e2a\u540e\u7aef\u670d\u52a1\u5668\uff0c\u4ee5\u4f18\u5316\u670d\u52a1\u5668\u6027\u80fd\u548c\u54cd\u5e94\u901f\u5ea6\u3002"
+      },
+      "zz": {
+        "title": "Amazon Web Services (AWS) - Elastic Load Balancer (ELB)"
+      }
     }
   },
   {
@@ -565,18 +777,39 @@
       "marketing"
     ],
     "translations": {
-      "de": {},
-      "en": {},
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
+      "$en": {
+        "description": "Marketo is a customer-relationship-management (CRM) solution."
+      },
+      "de": {
+        "description": "Marketo ist eine Customer-Relationship-Management (CRM)-L\u00f6sung."
+      },
+      "en": {
+        "description": "Marketo is a customer-relationship-management (CRM) solution."
+      },
+      "es": {
+        "description": "Marketo es una soluci\u00f3n de gesti\u00f3n de las relaciones con los clientes (CRM)."
+      },
+      "fr": {
+        "description": "Marketo est une solution de gestion de la relation client (CRM)."
+      },
+      "it": {
+        "description": "Marketo \u00e8 una soluzione di gestione delle relazioni con i clienti (CRM)."
+      },
+      "nl": {
+        "description": "Marketo is een oplossing voor klantenrelatiebeheer (CRM)."
+      },
+      "pl": {
+        "description": "Marketo jest rozwi\u0105zaniem do zarz\u0105dzania relacjami z klientami (CRM)."
+      },
       "privacyPolicyUrl": {
         "zz": "https://documents.marketo.com/legal/privacy/"
       },
-      "pt": {},
-      "zh": {}
+      "pt": {
+        "description": "Marketo \u00e9 uma solu\u00e7\u00e3o de gest\u00e3o de relacionamento com o cliente (CRM)."
+      },
+      "zh": {
+        "description": "Marketo\u662f\u4e00\u4e2a\u5ba2\u6237\u5173\u7cfb\u7ba1\u7406\uff08CRM\uff09\u89e3\u51b3\u65b9\u6848\u3002"
+      }
     }
   },
   {
@@ -590,15 +823,36 @@
       "functional"
     ],
     "translations": {
-      "de": {},
-      "en": {},
-      "es": {},
-      "fr": {},
-      "it": {},
-      "nl": {},
-      "pl": {},
-      "pt": {},
-      "zh": {}
+      "$en": {
+        "description": "Jira is a ticketing and bug-tracking solution offered by Atlassian Inc.."
+      },
+      "de": {
+        "description": "Jira ist eine Ticketing- und Bug-Tracking-L\u00f6sung, die von Atlassian Inc. angeboten wird."
+      },
+      "en": {
+        "description": "Jira is a ticketing and bug-tracking solution offered by Atlassian Inc.."
+      },
+      "es": {
+        "description": "Jira es una soluci\u00f3n de gesti\u00f3n de tickets y seguimiento de errores ofrecida por Atlassian Inc."
+      },
+      "fr": {
+        "description": "Jira est une solution de billetterie et de suivi de bugs propos\u00e9e par Atlassian Inc."
+      },
+      "it": {
+        "description": "Jira \u00e8 una soluzione di ticketing e bug-tracking offerta da Atlassian Inc."
+      },
+      "nl": {
+        "description": "Jira is een oplossing voor het bijhouden van tickets en bugs, die wordt aangeboden door Atlassian Inc."
+      },
+      "pl": {
+        "description": "Jira jest rozwi\u0105zaniem do ticketingu i bug-trackingu oferowanym przez Atlassian Inc."
+      },
+      "pt": {
+        "description": "A Jira \u00e9 uma solu\u00e7\u00e3o de bilheteria e rastreamento de bugs oferecida pela Atlassian Inc.."
+      },
+      "zh": {
+        "description": "Jira\u662fAtlassian Inc.\u63d0\u4f9b\u7684\u4e00\u79cd\u7968\u52a1\u548c\u9519\u8bef\u8ddf\u8e2a\u89e3\u51b3\u65b9\u6848\u3002"
+      }
     }
   },
   {

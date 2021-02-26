@@ -1,0 +1,2 @@
+export KLARO_SERVICES_TOKEN=f4ebe60f7555461fa534d46a4691bc75
+export KLARO_API_URL=http://localhost:8000

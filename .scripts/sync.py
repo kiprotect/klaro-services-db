@@ -4,8 +4,8 @@ import sys
 import os
 
 DB_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-TOKEN = os.environ.get('TOKEN')
-API = os.environ.get('API', 'https://api.kiprotect.com')
+TOKEN = os.environ.get('KLARO_SERVICES_TOKEN')
+API = os.environ.get('KLARO_API_URL', 'https://api.kiprotect.com')
 
 def main():
     with open('database.json') as input_file:

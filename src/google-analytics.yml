@@ -36,8 +36,9 @@ purposes:
 - marketing
 requests:
 - url: https://www\.google-analytics\.com
-scripts:
-- source:
+elements:
+- tagName: script
+  content:
     patterns:
     - ga\('create'.*?\)
     - GoogleAnalyticsObject
