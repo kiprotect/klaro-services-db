@@ -1,0 +1,47 @@
+cookies: []
+elements:
+- src: https://api\.kiprotect\.com/v1/anonymizers
+  tagName: script
+localStorage:
+- keyPattern: ^konsens$
+name: konsens
+purposes:
+- performance
+requests:
+- url: https://api\.kiprotect\.com/v1/anonymizers
+required: false
+sessionStorage:
+- keyPattern: ^konsens$
+translations:
+  $en:
+    description: Konsens helps us to collect anonymous data on how our visitors use
+      our website, which in turn helps us to improve it.
+  de:
+    description: Konsens hilft uns, anonyme Daten darüber zu sammeln, wie unsere Besucher
+      unsere Website nutzen, was uns wiederum hilft, sie zu verbessern.
+  en:
+    description: Konsens helps us to collect anonymous data on how our visitors use
+      our website, which in turn helps us to improve it.
+  es:
+    description: Konsens nos ayuda a recopilar datos anónimos sobre el uso que nuestros
+      visitantes hacen de nuestro sitio web, lo que a su vez nos ayuda a mejorarlo.
+  fr:
+    description: Konsens nous aide à recueillir des données anonymes sur la façon
+      dont nos visiteurs utilisent notre site Web, ce qui nous aide à l'améliorer.
+  it:
+    description: Konsens ci aiuta a raccogliere dati anonimi su come i visitatori
+      usano il nostro sito web, che a sua volta ci aiuta a migliorarlo.
+  nl:
+    description: Konsens helpt ons anonieme gegevens te verzamelen over hoe onze bezoekers
+      onze website gebruiken, wat ons op onze beurt helpt om de website te verbeteren.
+  pl:
+    description: Konsens pomaga nam zbierać anonimowe dane o tym, jak odwiedzający
+      korzystają z naszej strony internetowej, co z kolei pomaga nam w jej ulepszaniu.
+  pt:
+    description: A Konsens nos ajuda a coletar dados anônimos sobre como nossos visitantes
+      usam nosso website, o que, por sua vez, nos ajuda a melhorá-lo.
+  zh:
+    description: Konsens帮助我们收集关于访问者如何使用我们网站的匿名数据，从而帮助我们改进网站。
+  zz:
+    privacyPolicyUrl: https://kiprotect.com/resources/privacy?lang={lang}
+    title: Konsens

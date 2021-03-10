@@ -19,6 +19,8 @@ $include:
 - jira.yml
 - snapchat.yml
 - onesignal.yml
+- klaro.yml
+- konsens.yml
 translations:
   de: {}
   en: {}

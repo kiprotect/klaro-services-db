@@ -30,19 +30,19 @@ cookies:
 - expiresAfter: 10 minutes
   pattern: ^__utmt$
 default: false
+elements:
+- content:
+    patterns:
+    - ga\('create'.*?\)
+    - GoogleAnalyticsObject
+    - www\.google-analytics\.com/analytics\.js
+  tagName: script
 name: google-analytics
 purposes:
 - performance
 - marketing
 requests:
 - url: https://www\.google-analytics\.com
-elements:
-- tagName: script
-  content:
-    patterns:
-    - ga\('create'.*?\)
-    - GoogleAnalyticsObject
-    - www\.google-analytics\.com/analytics\.js
 translations:
   $en:
     description: Google Analytics is a web analytics solution offered by Google.

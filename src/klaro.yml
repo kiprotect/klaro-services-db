@@ -1,0 +1,59 @@
+cookies:
+- expiresAfter: 120 days
+  path: /
+  pattern: ^klaro$
+default: true
+elements:
+- src: https://api\.kiprotect\.com/v1/privacy-managers
+  tagName: script
+localStorage:
+- keyPattern: ^klaro$
+name: klaro
+purposes:
+- functional
+requests:
+- url: https://api\.kiprotect\.com/v1/privacy-managers
+required: true
+sessionStorage:
+- keyPattern: ^shown-before$
+translations:
+  $en:
+    description: Klaro helps us to protect your privacy on this website. It offers
+      the consent dialogue that you're using and manages & documents your consent
+      choices.
+  de:
+    description: Klaro hilft uns, Ihre Privatsphäre auf dieser Website zu schützen.
+      Es bietet den Einwilligungsdialog, den Sie verwenden und verwaltet & dokumentiert
+      Ihre Einwilligungsentscheidungen.
+  en:
+    description: Klaro helps us to protect your privacy on this website. It offers
+      the consent dialogue that you're using and manages & documents your consent
+      choices.
+  es:
+    description: Klaro nos ayuda a proteger su privacidad en este sitio web. Ofrece
+      el diálogo de consentimiento que estás utilizando y gestiona y documenta tus
+      opciones de consentimiento.
+  fr:
+    description: Klaro nous aide à protéger votre vie privée sur ce site Web. Il propose
+      le dialogue de consentement que vous utilisez et gère et documente vos choix
+      de consentement.
+  it:
+    description: Klaro ci aiuta a proteggere la sua privacy su questo sito. Offre
+      il dialogo di consenso che sta usando e gestisce e documenta le sue scelte di
+      consenso.
+  nl:
+    description: Klaro helpt ons om uw privacy op deze website te beschermen. Het
+      biedt de toestemmingsdialoog die u gebruikt en beheert & documenteert uw toestemmingskeuzen.
+  pl:
+    description: Klaro pomaga nam chronić Państwa prywatność na tej stronie. Oferuje
+      dialog zgody, z którego Państwo korzystają oraz zarządza i dokumentuje Państwa
+      wybory dotyczące zgody.
+  pt:
+    description: O Klaro nos ajuda a proteger sua privacidade neste site. Ele nos
+      oferece o diálogo de consentimento que o senhor está usando e administra e documenta
+      suas escolhas de consentimento.
+  zh:
+    description: Klaro 帮助我们在本网站上保护您的隐私。它提供您正在使用的同意对话，并管理和记录您的同意选择。
+  zz:
+    privacyPolicyUrl: https://kiprotect.com/resources/privacy?lang={lang}
+    title: Klaro!

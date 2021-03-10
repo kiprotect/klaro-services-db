@@ -929,5 +929,142 @@
         "overrides": {}
       }
     ]
+  },
+  {
+    "cookies": [
+      {
+        "expiresAfter": "120 days",
+        "path": "/",
+        "pattern": "^klaro$"
+      }
+    ],
+    "default": true,
+    "elements": [
+      {
+        "src": "https://api\\.kiprotect\\.com/v1/privacy-managers",
+        "tagName": "script"
+      }
+    ],
+    "localStorage": [
+      {
+        "keyPattern": "^klaro$"
+      }
+    ],
+    "name": "klaro",
+    "purposes": [
+      "functional"
+    ],
+    "requests": [
+      {
+        "url": "https://api\\.kiprotect\\.com/v1/privacy-managers"
+      }
+    ],
+    "required": true,
+    "sessionStorage": [
+      {
+        "keyPattern": "^shown-before$"
+      }
+    ],
+    "translations": {
+      "$en": {
+        "description": "Klaro helps us to protect your privacy on this website. It offers the consent dialogue that you're using and manages & documents your consent choices."
+      },
+      "de": {
+        "description": "Klaro hilft uns, Ihre Privatsph\u00e4re auf dieser Website zu sch\u00fctzen. Es bietet den Einwilligungsdialog, den Sie verwenden und verwaltet & dokumentiert Ihre Einwilligungsentscheidungen."
+      },
+      "en": {
+        "description": "Klaro helps us to protect your privacy on this website. It offers the consent dialogue that you're using and manages & documents your consent choices."
+      },
+      "es": {
+        "description": "Klaro nos ayuda a proteger su privacidad en este sitio web. Ofrece el di\u00e1logo de consentimiento que est\u00e1s utilizando y gestiona y documenta tus opciones de consentimiento."
+      },
+      "fr": {
+        "description": "Klaro nous aide \u00e0 prot\u00e9ger votre vie priv\u00e9e sur ce site Web. Il propose le dialogue de consentement que vous utilisez et g\u00e8re et documente vos choix de consentement."
+      },
+      "it": {
+        "description": "Klaro ci aiuta a proteggere la sua privacy su questo sito. Offre il dialogo di consenso che sta usando e gestisce e documenta le sue scelte di consenso."
+      },
+      "nl": {
+        "description": "Klaro helpt ons om uw privacy op deze website te beschermen. Het biedt de toestemmingsdialoog die u gebruikt en beheert & documenteert uw toestemmingskeuzen."
+      },
+      "pl": {
+        "description": "Klaro pomaga nam chroni\u0107 Pa\u0144stwa prywatno\u015b\u0107 na tej stronie. Oferuje dialog zgody, z kt\u00f3rego Pa\u0144stwo korzystaj\u0105 oraz zarz\u0105dza i dokumentuje Pa\u0144stwa wybory dotycz\u0105ce zgody."
+      },
+      "pt": {
+        "description": "O Klaro nos ajuda a proteger sua privacidade neste site. Ele nos oferece o di\u00e1logo de consentimento que o senhor est\u00e1 usando e administra e documenta suas escolhas de consentimento."
+      },
+      "zh": {
+        "description": "Klaro \u5e2e\u52a9\u6211\u4eec\u5728\u672c\u7f51\u7ad9\u4e0a\u4fdd\u62a4\u60a8\u7684\u9690\u79c1\u3002\u5b83\u63d0\u4f9b\u60a8\u6b63\u5728\u4f7f\u7528\u7684\u540c\u610f\u5bf9\u8bdd\uff0c\u5e76\u7ba1\u7406\u548c\u8bb0\u5f55\u60a8\u7684\u540c\u610f\u9009\u62e9\u3002"
+      },
+      "zz": {
+        "privacyPolicyUrl": "https://kiprotect.com/resources/privacy?lang={lang}",
+        "title": "Klaro!"
+      }
+    }
+  },
+  {
+    "cookies": [],
+    "elements": [
+      {
+        "src": "https://api\\.kiprotect\\.com/v1/anonymizers",
+        "tagName": "script"
+      }
+    ],
+    "localStorage": [
+      {
+        "keyPattern": "^konsens$"
+      }
+    ],
+    "name": "konsens",
+    "purposes": [
+      "performance"
+    ],
+    "requests": [
+      {
+        "url": "https://api\\.kiprotect\\.com/v1/anonymizers"
+      }
+    ],
+    "required": false,
+    "sessionStorage": [
+      {
+        "keyPattern": "^konsens$"
+      }
+    ],
+    "translations": {
+      "$en": {
+        "description": "Konsens helps us to collect anonymous data on how our visitors use our website, which in turn helps us to improve it."
+      },
+      "de": {
+        "description": "Konsens hilft uns, anonyme Daten dar\u00fcber zu sammeln, wie unsere Besucher unsere Website nutzen, was uns wiederum hilft, sie zu verbessern."
+      },
+      "en": {
+        "description": "Konsens helps us to collect anonymous data on how our visitors use our website, which in turn helps us to improve it."
+      },
+      "es": {
+        "description": "Konsens nos ayuda a recopilar datos an\u00f3nimos sobre el uso que nuestros visitantes hacen de nuestro sitio web, lo que a su vez nos ayuda a mejorarlo."
+      },
+      "fr": {
+        "description": "Konsens nous aide \u00e0 recueillir des donn\u00e9es anonymes sur la fa\u00e7on dont nos visiteurs utilisent notre site Web, ce qui nous aide \u00e0 l'am\u00e9liorer."
+      },
+      "it": {
+        "description": "Konsens ci aiuta a raccogliere dati anonimi su come i visitatori usano il nostro sito web, che a sua volta ci aiuta a migliorarlo."
+      },
+      "nl": {
+        "description": "Konsens helpt ons anonieme gegevens te verzamelen over hoe onze bezoekers onze website gebruiken, wat ons op onze beurt helpt om de website te verbeteren."
+      },
+      "pl": {
+        "description": "Konsens pomaga nam zbiera\u0107 anonimowe dane o tym, jak odwiedzaj\u0105cy korzystaj\u0105 z naszej strony internetowej, co z kolei pomaga nam w jej ulepszaniu."
+      },
+      "pt": {
+        "description": "A Konsens nos ajuda a coletar dados an\u00f4nimos sobre como nossos visitantes usam nosso website, o que, por sua vez, nos ajuda a melhor\u00e1-lo."
+      },
+      "zh": {
+        "description": "Konsens\u5e2e\u52a9\u6211\u4eec\u6536\u96c6\u5173\u4e8e\u8bbf\u95ee\u8005\u5982\u4f55\u4f7f\u7528\u6211\u4eec\u7f51\u7ad9\u7684\u533f\u540d\u6570\u636e\uff0c\u4ece\u800c\u5e2e\u52a9\u6211\u4eec\u6539\u8fdb\u7f51\u7ad9\u3002"
+      },
+      "zz": {
+        "privacyPolicyUrl": "https://kiprotect.com/resources/privacy?lang={lang}",
+        "title": "Konsens"
+      }
+    }
   }
 ]
